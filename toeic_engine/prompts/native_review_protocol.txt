@@ -1,0 +1,20 @@
+NATIVE CODEX REVIEW PROTOCOL — VERSION 2
+Working directory: {{WORKSPACE}}
+Run: {{RUN}}
+No developer API or HTTP model calls. Actual collaboration.spawn_agent selects gpt-6.1-sol / xhigh, or gpt-6-astra / high for final external review. Source prompts remain toeic_engine/prompts/*.txt and are frozen in audit/prompt-snapshot.json. Never fabricate model responses or claim a check was performed by an uncalled role.
+
+Review file envelope for solver/challenger/critic/teaching:
+{"unit_id":"uNNN","content_sha256":"EXACT_HASH","model":"gpt-6.1-sol","reasoning_effort":"xhigh","agent":"/root/TASK_NAME","role":"solver|challenger|critic|teaching","result":{...schema-valid actual review...}}
+Output path reviews/ROLE/uNNN-HASH12.json; teaching has suffix -BATCHNUMBER.json.
+
+Information boundaries:
+- Solver: read only assigned *.blind.json and solver instructions; no keys, metadata, previous conclusions or content files.
+- Challenger: NEW agent, read only assigned *.blind.json and challenger instructions, no solver conclusions.
+- Critic: NEW agent, full *.content.json, exact blueprint and independent solver record allowed; do not assume agreement is proof. Use critic.txt and schema.
+- Teaching: NEW agent, only assigned *.teaching-N.json plus teaching_reviewer.txt and schema. Do not open other reviewer conclusions. Review all eight explanation fields, all four alternatives, exact quotes, and takeaways. Max five questions per payload. Separate saved output per payload.
+- Probe: NEW agent for each visible-document mask AND question ID. It receives only probe-MASK-qN.json, evidence_probe.txt and schema. NEVER open the canonical unit, other masks, other reviewers or plans. Each packet physically omits hidden documents, other questions, author keys and explanations. Each session sees exactly ONE question from each unit; no other question or hidden document from that unit is ever disclosed in that session. Different units are unrelated. Return one record per packet, carrying packet identity, input hash and visible IDs, plus model/effort/agent/role and result EvidenceDecision. Save array reviews/probe/MASK-qN.json. This is native fresh-context document ablation, not an API call. Do not guess missing facts.
+- External Astra: NEW gpt-6-astra/high agent, blind packet first; save AND verify blind report before opening full content. Then check EVERY item and every explanation field/option. Report exact content hash. No previous reviews until own initial conclusion saved. If changes needed, report evidence and specific fixes; Sol authors perform repairs. Declare any prior key exposure on rereview; use fresh agent when student content changes.
+
+Passing never means infallible or psychometrically calibrated. Report real ambiguities and false teaching rules; do not invent hypothetical backstories, hidden policies or cosmetic defects. If a real defect exists, verdict revise with actual findings; parent will repair and re-run the affected gates. Never suppress a defect to satisfy a validator.
+
+Diversity protocol: author writes a separate fingerprint annotation for every question. A distinct Sol critic verifies the annotation and exact evidence, recording their real agent identity and a concrete note. Annotation envelopes bind the canonical content SHA-256; annotations are never supplied to blind solvers or ablation agents. Whole-test review additionally checks realized construct coverage, repeated solution templates, natural communicative variety, and option information density. Longest-option accuracy above .30 in Part 7 requires documented editorial attention; .30 is an engineering alert, not an ETS quota, psychometric standard or guarantee. Repairs must preserve naturalness and plausible distractors; no length padding.

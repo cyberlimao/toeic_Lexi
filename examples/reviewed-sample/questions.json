@@ -1,0 +1,4180 @@
+{
+  "schema_version": "1.0",
+  "run_id": "reviewed-sample",
+  "status": "complete",
+  "expected_question_count": 54,
+  "planned_unit_count": 7,
+  "question_count": 54,
+  "document_type": "practice",
+  "title": "閱讀練習範例",
+  "sample_scope": "開發階段的閱讀練習範例",
+  "units": [
+    {
+      "id": "u001",
+      "content_sha256": "ddf155e8007000999ce6589f26756d4785a9cee0105c4a63b5489dfc4c87dba7",
+      "content": {
+        "part": 5,
+        "title": "Part 5 Reading Practice - Incomplete Sentences",
+        "scenario_summary": "A comprehensive 30-item Part 5 test batch focusing on workplace grammar, lexical collocations, word forms, prepositions, conjunctions, and sentence mechanics across diverse commercial scenarios.",
+        "documents": [],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "grammar",
+            "skill": "pronoun_case_reference",
+            "difficulty": "medium",
+            "prompt": "Contractors renting industrial generators must verify that each unit is returned with {{q1}} fuel tank completely filled to avoid additional service fees.",
+            "options": [
+              {
+                "label": "A",
+                "text": "it"
+              },
+              {
+                "label": "B",
+                "text": "its"
+              },
+              {
+                "label": "C",
+                "text": "itself"
+              },
+              {
+                "label": "D",
+                "text": "their"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需要修飾名詞短語「fuel tank」的第三人稱單數所有格限定詞，故選 (B) its。",
+              "reasoning_zh": "先行詞為單數無生命設備「each unit」（每台機組），空格後為名詞短語「fuel tank」（油箱），因此需要單數所有格限定詞 its 來修飾名詞。(A) it 為主格或受格，不能直接修飾名詞；(C) itself 為反身代名詞；(D) their 常用於複數，或在特定情境指性別未明之單數人稱，但在本句中指代單數的無生命設備 each unit 並不合適。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "it 為主格或受格人稱代名詞，無法置於名詞 fuel tank 前作修飾語。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "its 在此作所有格限定詞，正確指代單數無生命設備 each unit，修飾 fuel tank。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "itself 為反身代名詞，無法在名詞短語中充當所有格修飾語。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "their 在指稱無生命的單數名詞 each unit 時不符合標準指代用法。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "指代單數無生命物體並修飾名詞時，應選用所有格限定詞 its。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "grammar",
+            "skill": "preposition",
+            "difficulty": "easy",
+            "prompt": "Life jackets are stowed in overhead compartments directly {{q2}} each passenger's seat for rapid deployment during an emergency on the harbor tour.",
+            "options": [
+              {
+                "label": "A",
+                "text": "during"
+              },
+              {
+                "label": "B",
+                "text": "throughout"
+              },
+              {
+                "label": "C",
+                "text": "beneath"
+              },
+              {
+                "label": "D",
+                "text": "above"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需要表示空間位置「在……正上方」的介系詞，故選 (D) above。",
+              "reasoning_zh": "前文提到救生衣存放在頭頂行李艙（overhead compartments），空格後為「each passenger's seat」（每位乘客的座位），搭配副詞 directly，表示「在座位的正上方」，介系詞 above 符合空間位置。(A) during 為時間介系詞；(B) throughout 表示遍及某處或貫穿全程；(C) beneath 表示在……下方，與 overhead（頭頂上方的）位置矛盾。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "during 用於時間區間（如 during the tour），不能表示空間位置。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "throughout 表示遍及整個區域或貫穿全時期，不能搭配單一座位表示正上方位置。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "beneath 表示在……下方，與前文 overhead compartments（頭頂行李艙）的垂直位置相衝突。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "above 表示在……上方，與 directly 連用形成「directly above...」（正上方），語意完全精確。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "空間介系詞需依據前後物理位置的相對關係判定；above 表示高於某物或在某物上方。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "grammar",
+            "skill": "conjunction_vs_preposition",
+            "difficulty": "medium",
+            "prompt": "{{q3}} heavy commuter congestion along the northern motorway, the airport express shuttle arrived at the international terminal ten minutes early.",
+            "options": [
+              {
+                "label": "A",
+                "text": "Despite"
+              },
+              {
+                "label": "B",
+                "text": "Although"
+              },
+              {
+                "label": "C",
+                "text": "Whereas"
+              },
+              {
+                "label": "D",
+                "text": "Unless"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格後為名詞短語，需選用表示讓步的介系詞，故選 (A) Despite。",
+              "reasoning_zh": "空格後方為「heavy commuter congestion along the northern motorway」（北側高速公路嚴重的通勤壅塞），此結構為純名詞短語，無主詞與限定動詞，因此選用介系詞 (A) Despite。選項 (B) Although、(C) Whereas 與 (D) Unless 為從屬連接詞，不能直接接本題的名詞短語形成所需結構。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "Despite 為介系詞，後接名詞短語表達讓步語意，完全符合句法結構。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "Although 為從屬連接詞，不能直接接名詞短語 heavy commuter congestion。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "Whereas 為從屬連接詞，用於對比兩件事實，不能直接接名詞短語。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "Unless 為從屬連接詞（意為除非），不能直接接名詞短語。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "本題 Despite 後接 heavy commuter congestion 這個名詞片語。Although、Whereas、Unless 不能直接接本題的名詞片語形成所需結構。從屬連接詞常引導完整子句，但也有 Although tired、Unless instructed otherwise 等省略或簡化結構。"
+            }
+          },
+          {
+            "id": "q4",
+            "kind": "grammar",
+            "skill": "word_form_noun",
+            "difficulty": "medium",
+            "prompt": "Before assigning display stalls for the upcoming season, the committee requires each prospective {{q4}} to submit documentation of safe food-handling practices.",
+            "options": [
+              {
+                "label": "A",
+                "text": "participate"
+              },
+              {
+                "label": "B",
+                "text": "participation"
+              },
+              {
+                "label": "C",
+                "text": "participant"
+              },
+              {
+                "label": "D",
+                "text": "participatory"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需要可接受不定詞動作「to submit」的名詞，故選 (C) participant。",
+              "reasoning_zh": "句意為管理委員會要求每位有意申請的攤商或參與者提交食品安全處理證明。形容詞 prospective（潛在的、未來的）修飾名詞，且此名詞為接續不定詞動作「to submit documentation」的執行者。在這四個選項中，participant 能指稱負責提交文件的參與者，故選 (C) participant。(B) participation 為抽象名詞（參與），無法執行提交文件的動作；(A) 為動詞；(D) 為形容詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "participate 為動詞原形，不能作 requires 的受詞名詞。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "participation 為抽象名詞（參與），無法執行「提交文件」的動作，且前有 each prospective 修飾不合搭配。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "participant 為可數名詞（參與者），能作為 to submit 的邏輯主詞，文法與語意皆正確。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "participatory 為形容詞（參與式的），不能作名詞受詞。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "當選項同時出現人稱/角色名詞（如 -ant, -er, -or）與抽象名詞（如 -tion, -ment）時，需由後續動作的邏輯主體（執行者 vs 抽象概念）來判定。"
+            }
+          },
+          {
+            "id": "q5",
+            "kind": "grammar",
+            "skill": "passive_voice",
+            "difficulty": "medium",
+            "prompt": "All wireless microphones used during the auditorium presentation must {{q5}} to the media technician immediately after the panel discussion concludes.",
+            "options": [
+              {
+                "label": "A",
+                "text": "returns"
+              },
+              {
+                "label": "B",
+                "text": "be returned"
+              },
+              {
+                "label": "C",
+                "text": "returning"
+              },
+              {
+                "label": "D",
+                "text": "to return"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "情態助動詞 must 後方接被動結構，故選 (B) be returned。",
+              "reasoning_zh": "本句表示所有麥克風須交還給媒體技術人員，be returned 構成自然的被動語態。must 後接原形動詞或以原形 be 開頭的被動結構。(A) returns 帶有第三人稱單數詞尾，(C) returning 為 -ing 形式，(D) to return 含 to，均不能直接接在 must 後。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "returns 帶有第三人稱單數詞尾 -s，不能直接接在情態助動詞 must 之後。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "be returned 為「be + 過去分詞」之被動結構，以原形動詞 be 開頭接在 must 後，符合句意與助動詞句法。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "returning 為分詞／動名詞形式，不能直接接在情態助動詞 must 之後作主要述語。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "to return 包含不定詞符號 to，情態助動詞 must 後面不可接帶 to 的不定詞。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "情態助動詞（must, should, can 等）後接原形動詞；表達被動時使用「助動詞 + be + 過去分詞」。注意某些動詞（如 return）在英文中兼具及物與不及物用法，無生命主詞亦可出現於主動句中，解題時須綜合考量助動詞後之形式要求。"
+            }
+          },
+          {
+            "id": "q6",
+            "kind": "grammar",
+            "skill": "subordinate_conjunction",
+            "difficulty": "medium",
+            "prompt": "{{q6}} the editorial staff completes the final layout review tonight, the morning edition of the gazette will be sent to the printing facility.",
+            "options": [
+              {
+                "label": "A",
+                "text": "Once"
+              },
+              {
+                "label": "B",
+                "text": "Despite"
+              },
+              {
+                "label": "C",
+                "text": "During"
+              },
+              {
+                "label": "D",
+                "text": "Following"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格後為包含主詞與限定動詞的完整子句，需填入從屬連接詞，故選 (A) Once。",
+              "reasoning_zh": "空格後方「the editorial staff completes the final layout review tonight」具有主詞（the editorial staff）與動詞（completes），屬於時間副詞子句。選項中只有 (A) Once 是從屬連接詞，表示「一旦……就……」；(B) Despite、(C) During 與 (D) Following 在此句型中均為介系詞，後方接名詞短語，不能在此引導本題的限定子句。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "Once 為從屬連接詞，引導時間條件副詞子句，符合「一旦編輯部完成排版審核，晨報就會送印」之句意。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "Despite 為介系詞，不能在此直接引導帶有限定動詞 completes 的完整子句。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "During 為介系詞，後方須接名詞短語表示時間期間，不能引導子句。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "Following 為介系詞（意為在……之後），後方接名詞短語，不能引導子句。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "辨識空格後是完整子句（主詞 + 限定動詞）還是名詞短語，是區分從屬連接詞（如 Once, Although）與介系詞（如 During, Despite）的關鍵。"
+            }
+          },
+          {
+            "id": "q7",
+            "kind": "vocabulary",
+            "skill": "adjective_collocation",
+            "difficulty": "easy",
+            "prompt": "The facilities team scheduled the office relocation over the holiday weekend to ensure {{q7}} disruption to regular banking operations.",
+            "options": [
+              {
+                "label": "A",
+                "text": "deliberate"
+              },
+              {
+                "label": "B",
+                "text": "spacious"
+              },
+              {
+                "label": "C",
+                "text": "minimal"
+              },
+              {
+                "label": "D",
+                "text": "obedient"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需與 disruption（干擾、中斷）搭配，表示降至最低程度，故選 (C) minimal。",
+              "reasoning_zh": "句意為後勤設施團隊將辦公室搬遷安排在連假週末，以確保對平日正常銀行營運造成「最低程度的」干擾。「minimal disruption」（最低限度的干擾）是商務與專案管理中表達降低負面影響的標準搭配。(A) deliberate（蓄意的）、(B) spacious（寬敞的）、(D) obedient（順從的）皆不符合語境。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "本句把搬遷安排在連假週末，語境支持降低對平日業務的影響；deliberate 只表示有意為之，不能表達影響程度低。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "spacious 意為空間寬敞的，用來修飾實體空間，無法修飾抽象的業務干擾（disruption）。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "minimal 意為極小的、最低限度的，與 disruption 構成自然搭配，準確表達盡可能減少業務中斷之意。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "obedient 意為服從的、順從的，用於形容人或動物的行為，不能修飾業務營運受到的干擾。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「minimal disruption / minimal impact」常用於描述透過周詳安排將營運衝擊降到最低的商業情境。"
+            }
+          },
+          {
+            "id": "q8",
+            "kind": "grammar",
+            "skill": "tense_aspect",
+            "difficulty": "medium",
+            "prompt": "Since the international trade fair moved to the central convention hall three years ago, total exhibitor attendance {{q8}} by over forty percent.",
+            "options": [
+              {
+                "label": "A",
+                "text": "increases"
+              },
+              {
+                "label": "B",
+                "text": "will increase"
+              },
+              {
+                "label": "C",
+                "text": "was increasing"
+              },
+              {
+                "label": "D",
+                "text": "has increased"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "本句陳述自過去三年前遷址以來持續至今的增長結果，需用現在完成式，故選 (D) has increased。",
+              "reasoning_zh": "本句以三年前遷址為起點，陳述截至目前的累計增幅，故選 has increased。since 常提示完成式，但不能單靠 since 斷定所有句子必用現在完成式。by over forty percent 是「增長超過百分之四十」，不是「增加四十個百分點」。(A) 為現在簡單式、(B) 為未來式、(C) 為過去進行式，皆無法妥善表達此跨越過去至今的累計成果。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "increases 為現在簡單式，多表示常態或習慣，無法表達自過去特定時間點累積至今的增長幅度。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "will increase 為未來式，無法描述從三年前至目前為止已發生的累計增幅。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "was increasing 為過去進行式，描述過去特定時間點正在進行的動作，無法連結至現在的累計結果。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "has increased 為現在完成式，準確呈現自三年前遷址以來至今累計增長超過百分之四十的事實。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "表達「自過去某起點持續累積至今的狀態或結果」時，主要子句常搭配現在完成式（have/has + p.p.）；另須注意「over forty percent」代表「超過百分之四十」，並非「四十個百分點（percentage points）」。"
+            }
+          },
+          {
+            "id": "q9",
+            "kind": "vocabulary",
+            "skill": "verb_collocation",
+            "difficulty": "medium",
+            "prompt": "To mark its fiftieth anniversary, the city gallery will {{q9}} an international exhibition in its west wing, where visitors can view rare landscape paintings from 10 A.M. to 6 P.M. daily.",
+            "options": [
+              {
+                "label": "A",
+                "text": "host"
+              },
+              {
+                "label": "B",
+                "text": "predict"
+              },
+              {
+                "label": "C",
+                "text": "negotiate"
+              },
+              {
+                "label": "D",
+                "text": "perform"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需與 an international exhibition 搭配，表示在展廳主辦展覽供大眾參觀，故選 (A) host。",
+              "reasoning_zh": "題幹描述美術館在西翼提供每日開放的展覽，讓訪客觀看畫作；host 表示主辦、接待該展覽。negotiate 可表示協商展覽的安排或條件，原本不是不合法的搭配，但不表達此處已明示的公開展出活動。不要把「negotiate 不能接 exhibition」列為文法規則。(B) predict（預測）與 (D) perform（表演）均不符合語境。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "host 意為主辦、舉辦，在此處與後文西翼展廳供訪客每日參觀畫作的展出情境完全相符。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "predict 意為預測，無法與美術館在西翼展場開放大眾參觀的活動搭配。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "negotiate 意為協商、洽談，可指策展時與借展方商議條件，但本句已指明在西翼向公眾展出，非洽商階段。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "perform 意為演出、演奏，通常搭配戲劇、音樂會或任務執行，不與繪畫展覽的展出搭配。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "動詞選用需結合句中明確的具體情境；host an exhibition 表達主辦並呈現展覽，符合訪客現場參觀之描述。"
+            }
+          },
+          {
+            "id": "q10",
+            "kind": "grammar",
+            "skill": "word_form_adjective",
+            "difficulty": "medium",
+            "prompt": "The architectural studio received widespread praise from municipal planners for its {{q10}} design of the eco-friendly community center.",
+            "options": [
+              {
+                "label": "A",
+                "text": "innovate"
+              },
+              {
+                "label": "B",
+                "text": "innovative"
+              },
+              {
+                "label": "C",
+                "text": "innovation"
+              },
+              {
+                "label": "D",
+                "text": "innovatively"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "為表達設計具有創新特質，空格需填入形容詞修飾名詞 design，故選 (B) innovative。",
+              "reasoning_zh": "空格前方為所有格 its，後方為被讚揚的對象名詞 design（設計）。名詞也常可作前置修飾語，但本句受讚揚的是該設計所具備的創新特質，因此形容詞 innovative 為最自然的修飾語。(A) 為動詞，(C) 為名詞，(D) 為副詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "innovate 為動詞原形，不能置於所有格後修飾名詞 design。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "innovative 為形容詞，意為「創新的」，直接修飾 design，精確表達獲得讚譽的設計品質。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "innovation 為名詞；雖然名詞有時可作名詞修飾語，但此處形容詞 innovative 最精確表達「具創新性的設計」。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "innovatively 為副詞，不能直接修飾單一名詞 design。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "在「所有格 + 名詞」結構中，修飾名詞性質或特徵通常優先考量形容詞形式。"
+            }
+          },
+          {
+            "id": "q11",
+            "kind": "vocabulary",
+            "skill": "adverb_collocation",
+            "difficulty": "medium",
+            "prompt": "Before fragile glassware is loaded into shipping cartons, each item must be {{q11}} wrapped in protective bubble film to prevent breakage during transit.",
+            "options": [
+              {
+                "label": "A",
+                "text": "endlessly"
+              },
+              {
+                "label": "B",
+                "text": "marginally"
+              },
+              {
+                "label": "C",
+                "text": "securely"
+              },
+              {
+                "label": "D",
+                "text": "abruptly"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格修飾動詞 wrapped，表示「牢固地、安全地包裹」，故選 (C) securely。",
+              "reasoning_zh": "句中明確指明包裹玻璃器皿的目的是「prevent breakage during transit」（防止運送途中破損），因此修飾 wrapped 的副詞必須表達緊實、牢固的包裝狀態，securely wrapped 符合該要求。(A) endlessly（無休止地）描述無止盡的活動，不符合此有限包裝程序的指示；(B) marginally（些微地）程度不足以防破損；(D) abruptly（突兀地）形容動作突然發生，與規範不合。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "endlessly 意為無休止地，描述無邊界的持續活動，不適用於具體單件貨物的包裝要求。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "marginally 意為些微地，無法滿足防止易碎器皿破裂的防護目的。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "securely 意為牢靠地、安全地，與 wrapped 搭配表達緊實穩固地包好以防破損，符合後文目的。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "abruptly 意為突然地，形容動作突發且無預警，與規範包裝作業之情境不合。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "修飾包裝或固定動作（如 wrapped, fastened, packed）時，securely 能準確傳達「穩固、防護妥當」之意。"
+            }
+          },
+          {
+            "id": "q12",
+            "kind": "grammar",
+            "skill": "word_form_adverb",
+            "difficulty": "medium",
+            "prompt": "Returned electronics must be {{q12}} inspected by customer service representatives before a replacement voucher or refund can be issued.",
+            "options": [
+              {
+                "label": "A",
+                "text": "thoroughly"
+              },
+              {
+                "label": "B",
+                "text": "thorough"
+              },
+              {
+                "label": "C",
+                "text": "thoroughness"
+              },
+              {
+                "label": "D",
+                "text": "most thorough"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格位於助動詞與過去分詞之間，需填入副詞修飾動詞 inspected，故選 (A) thoroughly。",
+              "reasoning_zh": "在被動語態結構「must be + 過去分詞（inspected）」中，修飾動詞動作執行程度的詞應為副詞。(A) thoroughly（徹底地、詳盡地）為副詞，修飾 inspected；(B) thorough 為形容詞，(C) thoroughness 為名詞，(D) most thorough 為形容詞最高級，皆不能在此修飾動詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "thoroughly 為副詞，置於 be 與 inspected 之間修飾動詞，表示徹底檢查，句法與語意皆正確。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "thorough 為形容詞，不能用來修飾後方的動詞過去分詞 inspected。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "thoroughness 為名詞，無法置於動詞結構中作修飾語。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "most thorough 為形容詞最高級，不能修飾動詞 inspected。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "在「be + 過去分詞」被動結構中，修飾動詞方式或程度的修飾語通常為副詞。"
+            }
+          },
+          {
+            "id": "q13",
+            "kind": "grammar",
+            "skill": "determiner_quantifier",
+            "difficulty": "easy",
+            "prompt": "At the beginning of each fiscal year, {{q13}} full-time employee receives twenty days of paid annual leave in addition to observed public holidays.",
+            "options": [
+              {
+                "label": "A",
+                "text": "all"
+              },
+              {
+                "label": "B",
+                "text": "many"
+              },
+              {
+                "label": "C",
+                "text": "several"
+              },
+              {
+                "label": "D",
+                "text": "every"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格後為單數可數名詞 employee 且動詞為單數 receives，需填入修飾單數名詞的限定詞，故選 (D) every。",
+              "reasoning_zh": "本句逐一談到全職員工，employee 與 receives 都是單數，因此選 every。若要用 all 表示全部員工，應寫成 all full-time employees，動詞也須改為 receive；many、several 同樣不能直接接本題的單數 employee。all 另有 all day、all the country 等用法，不能把「all 後一定接複數可數名詞」當作普遍規則。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "all 若要指稱全體員工，在此句構中須接複數可數名詞（如 all full-time employees）並搭配複數動詞，不能直接修飾單數 employee。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "many 用於修飾複數可數名詞，不符合此處單數主詞與單數動詞結構。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "several 意為數個，只能修飾複數可數名詞，不能接單數名詞 employee。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "every 後接單數可數名詞 employee，述語動詞亦用單數 receives，完全符合文法規範。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "修飾可數名詞並逐一指稱個體時，every / each 後接單數可數名詞並搭配單數動詞；指稱整體時，all 搭配複數可數名詞（如 all employees）或不可數名詞（如 all information），但也有 all day、all the country 等特定修飾用法。"
+            }
+          },
+          {
+            "id": "q14",
+            "kind": "vocabulary",
+            "skill": "verb_collocation",
+            "difficulty": "medium",
+            "prompt": "Subscribers who wish to {{q14}} their annual newspaper delivery service can do so through the customer self-service portal before the end of this month.",
+            "options": [
+              {
+                "label": "A",
+                "text": "dismiss"
+              },
+              {
+                "label": "B",
+                "text": "renew"
+              },
+              {
+                "label": "C",
+                "text": "invest"
+              },
+              {
+                "label": "D",
+                "text": "inherit"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需與 annual delivery service 搭配，表示「續訂／延長服務」，故選 (B) renew。",
+              "reasoning_zh": "句意為希望「續訂」年度報紙派送服務的訂戶，可在本月底前透過客戶自助入口網站辦理。(B) renew 表示延續或展期定期合約與服務，與 annual delivery service 搭配非常自然。(A) dismiss（解僱、駁回）、(C) invest（投資；若表示投資某服務通常需接 in，且語意不合）、(D) inherit（繼承）均不合句法或商業情境。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "dismiss 意為解僱員工或駁回訴求，不能作續期報紙派送服務之受詞動作。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "renew 意為展期、續約，與 annual delivery service 構成常見的續訂服務搭配。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "invest 意為投資，若表達投資某項業務需接介系詞 in（invest in），且一般訂戶自助門戶非投資平台。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "inherit 意為繼承財產或遺傳特徵，完全脫離訂閱服務語境。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「renew a subscription / renew a contract / renew a service」是訂閱與合約管理中最基礎的商務搭配詞。"
+            }
+          },
+          {
+            "id": "q15",
+            "kind": "vocabulary",
+            "skill": "business_adjective_meaning",
+            "difficulty": "easy",
+            "prompt": "The translation agency guarantees that corporate clients will receive an {{q15}} rendering of technical manuals within five business days.",
+            "options": [
+              {
+                "label": "A",
+                "text": "accidental"
+              },
+              {
+                "label": "B",
+                "text": "immense"
+              },
+              {
+                "label": "C",
+                "text": "accurate"
+              },
+              {
+                "label": "D",
+                "text": "unwilling"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格需填入描述翻譯成果品質「精準的」形容詞，故選 (C) accurate。",
+              "reasoning_zh": "句意為翻譯社向企業客戶保證將在五個工作天內提供技術手冊「精準的」翻譯文本（rendering）。(C) accurate（精確的、無誤的）能恰當描述專業翻譯的成果品質。(A) accidental（意外的）、(B) immense（巨大的）、(D) unwilling（不情願的）在此句中皆非合理的保證品質描述。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "accidental 意為意外的、偶然的，並非翻譯公司保證客戶獲得的成果特質。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "immense 意為極大的、浩瀚的，描述規模尺寸，不能在此提供手冊譯文精準度的合理描述。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "accurate 意為精確的、準確的，修飾 rendering（譯本／呈現），符合翻譯專業服務的品質保證。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "unwilling 意為不情願的，通常形容人的態度，無法修飾譯文。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「accurate translation / accurate record / accurate rendering」常用於評估文件傳達資訊的準確度。"
+            }
+          },
+          {
+            "id": "q16",
+            "kind": "grammar",
+            "skill": "relative_clause",
+            "difficulty": "medium",
+            "prompt": "Volunteers {{q16}} dedicate at least five hours per week to the community garden are eligible to receive a free crate of seasonal vegetables.",
+            "options": [
+              {
+                "label": "A",
+                "text": "who"
+              },
+              {
+                "label": "B",
+                "text": "which"
+              },
+              {
+                "label": "C",
+                "text": "whose"
+              },
+              {
+                "label": "D",
+                "text": "whom"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "先行詞為人（Volunteers）且關係代名詞在子句中作主詞，故選 (A) who。",
+              "reasoning_zh": "空格引導關係子句修飾先行詞「Volunteers」（志工，指人）。空格後緊接限定動詞 dedicate，表示關係代名詞在子句中擔任主詞角色，因此應選用主格代名詞 (A) who。(B) which 指物；(C) whose 為所有格，後接名詞片語（如 whose generous contributions）；(D) whom 為受格，不可在子句中作主詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "who 為指人的主格關係代名詞，在關係子句中充當限定動詞 dedicate 的主詞，文法正確。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "which 先行詞指事物，不能指代人員 Volunteers。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "whose 為所有格關係代名詞，後接所屬名詞片語，不能直接接限定動詞 dedicate。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "whom 為受格關係代名詞，不能在子句中充當動詞 dedicate 的主詞。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "關係代名詞的選擇需同時確認：1. 先行詞指人還是指物；2. 關係詞在子句中的句法功能（主格、受格或所有格）。"
+            }
+          },
+          {
+            "id": "q17",
+            "kind": "vocabulary",
+            "skill": "noun_collocation",
+            "difficulty": "medium",
+            "prompt": "The chief mechanic emphasized that routine {{q17}} of the bicycle's gear and brake systems will significantly extend the lifespan of the components.",
+            "options": [
+              {
+                "label": "A",
+                "text": "reservation"
+              },
+              {
+                "label": "B",
+                "text": "negotiation"
+              },
+              {
+                "label": "C",
+                "text": "delegation"
+              },
+              {
+                "label": "D",
+                "text": "maintenance"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需與 routine 搭配，表示機械設備的「例行維護」，故選 (D) maintenance。",
+              "reasoning_zh": "句意為首席技師強調，自行車齒輪與煞車系統的例行「保養／維修」將顯著延長零件的使用壽命。(D) maintenance（維護、保養）與 routine 構成常見的工程與維修搭配「routine maintenance」。(A) reservation（預約）、(B) negotiation（談判）、(C) delegation（代表團、委任）皆與零件保養無關。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "reservation 意為預訂、保留，不能搭配自行車煞車系統的定期保養。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "negotiation 意為商業談判、協商，無法用來保養延長機械零件壽命。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "delegation 意為委派任務或代表團，與機械維護毫無關聯。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "maintenance 意為維修、保養，與 routine 構成 routine maintenance（例行保養），符合機件保養情境。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「routine maintenance / preventative maintenance」是設備保養與物業管理領域的核心專業詞彙。"
+            }
+          },
+          {
+            "id": "q18",
+            "kind": "grammar",
+            "skill": "word_form_participle",
+            "difficulty": "medium",
+            "prompt": "To satisfy the {{q18}} demand for corporate event catering during the holiday season, the restaurant hired eight additional kitchen assistants.",
+            "options": [
+              {
+                "label": "A",
+                "text": "grow"
+              },
+              {
+                "label": "B",
+                "text": "growing"
+              },
+              {
+                "label": "C",
+                "text": "grown"
+              },
+              {
+                "label": "D",
+                "text": "grew"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格需填入現在分詞作為形容詞，修飾名詞 demand，表示「不斷增長的」，故選 (B) growing。",
+              "reasoning_zh": "空格位於定冠詞 the 與名詞 demand（需求）之間，需填入分詞作形容詞修飾 demand。此處需求處於持續擴大的動態狀態，因此使用現在分詞 (B) growing 修飾，構成「growing demand」（日益增長的需求）。(C) grown 為過去分詞，通常表示完成或成熟狀態（如 grown adults），在此不修飾 demand；(A) 為動詞原形；(D) 為過去式動詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "grow 為動詞原形，不能作名詞 demand 前的定語修飾詞。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "growing 為現在分詞作形容詞，表示「不斷增長的」，構成自然搭配 growing demand。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "grown 為過去分詞，通常表示已成長完畢的狀態（如 full-grown），不適合修飾此處處於持續增長動態的業務需求。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "grew 為過去簡單式動詞，不能在此修飾名詞。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "分詞作前置修飾語時，現在分詞（-ing）常用於表示持續進行或發展中的趨勢（如 growing demand, expanding market）。"
+            }
+          },
+          {
+            "id": "q19",
+            "kind": "vocabulary",
+            "skill": "business_noun_meaning",
+            "difficulty": "medium",
+            "prompt": "During the international trade fair, sales representatives received dozens of product {{q19}} from prospective buyers interested in the new software.",
+            "options": [
+              {
+                "label": "A",
+                "text": "disruptions"
+              },
+              {
+                "label": "B",
+                "text": "penalties"
+              },
+              {
+                "label": "C",
+                "text": "inquiries"
+              },
+              {
+                "label": "D",
+                "text": "compromises"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格需填入表示潛在買家所提出的「產品諮詢／詢價」名詞，故選 (C) inquiries。",
+              "reasoning_zh": "句意為在國際商展期間，業務代表從對新軟體感興趣的潛在買家那裡收到了數十件產品「諮詢／詢價」。(C) inquiries（詢問、諮詢）符合展會中買方表達興趣、索取產品資訊的情境。(A) disruptions（中斷、干擾）、(B) penalties（罰款）、(D) compromises（妥協、讓步）在此句中均不自然。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "disruptions 意為中斷、干擾，業務代表不會向潛在買家接收產品中斷。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "penalties 意為處罰、罰款，與潛在買家對新產品感興趣的商務情境不合。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "inquiries 意為詢問、諮詢，與 product 搭配表示產品諮詢（product inquiries），完全契合商展推廣情境。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "compromises 意為妥協、折衷，在此不能自然地表達潛在買家索取產品資訊或提問。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「inquiry / inquiries」在商務往來中常指對產品規格、價格或服務方案的詢問，常見搭配如 product inquiries、handle customer inquiries。"
+            }
+          },
+          {
+            "id": "q20",
+            "kind": "grammar",
+            "skill": "word_form_adverb",
+            "difficulty": "medium",
+            "prompt": "The training director explained the updated workplace safety regulations {{q20}} so that all assembly-line workers could follow the instructions correctly.",
+            "options": [
+              {
+                "label": "A",
+                "text": "clearly"
+              },
+              {
+                "label": "B",
+                "text": "clear"
+              },
+              {
+                "label": "C",
+                "text": "clarity"
+              },
+              {
+                "label": "D",
+                "text": "clearness"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需填入副詞修飾及物動詞 explained 的說明方式，故選 (A) clearly。",
+              "reasoning_zh": "句意為培訓主管清楚地說明了最新的安全法規，以便所有產線工人能正確遵循指示。動詞 explained 後已有受詞（the updated workplace safety regulations），空格位於受詞之後，需使用副詞修飾動詞。(A) clearly（清晰地）為副詞；(B) 為形容詞；(C) 與 (D) 皆為名詞，均不符合修飾動詞之句法需求。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "clearly 為副詞，位於受詞後修飾及物動詞 explained 的方式，句法與語意完全正確。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "clear 為形容詞，不能在此位置充當動詞 explained 的方式修飾語。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "clarity 為名詞（清晰度），在此無介系詞引導，不能充當修飾語。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "clearness 亦為名詞，詞性不符合修飾動詞動作的要求。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "一般情況下，方式副詞常放在動詞前或受詞後，尤其受詞較短時不宜插在動詞與受詞之間。但較長受詞或特定語氣下可有其他位置，例如 I remember clearly the day we first met。此題 clearly 位於受詞後，修飾 explained 的方式。"
+            }
+          },
+          {
+            "id": "q21",
+            "kind": "grammar",
+            "skill": "word_form_noun",
+            "difficulty": "easy",
+            "prompt": "The municipal planning board granted formal {{q21}} for the outdoor farmers market to expand into the adjacent pedestrian square.",
+            "options": [
+              {
+                "label": "A",
+                "text": "approve"
+              },
+              {
+                "label": "B",
+                "text": "approved"
+              },
+              {
+                "label": "C",
+                "text": "approvingly"
+              },
+              {
+                "label": "D",
+                "text": "approval"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格位於形容詞 formal 之後，需填入名詞作及物動詞 granted 的直接受詞，故選 (D) approval。",
+              "reasoning_zh": "及物動詞 granted（批准、授予）後方需要名詞作受詞，空格前有形容詞 formal（正式的）修飾，因此空格必須填入名詞。(D) approval（核准、許可）為名詞，構成「granted formal approval」（給予正式批准）；(A) 為動詞原形，(B) 為過去分詞／過去式，(C) 為副詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "approve 為動詞原形，不能作及物動詞 granted 的受詞。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "approved 為過去分詞或過去式動詞，此處不可作受詞名詞。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "approvingly 為副詞，不能受形容詞 formal 修飾，亦不能作動詞受詞。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "approval 為名詞，受 formal 修飾並作 granted 的受詞，構成「正式批准」之意。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「grant approval / give approval / seek approval」是商務與公文公告中極常見的動詞與名詞搭配。"
+            }
+          },
+          {
+            "id": "q22",
+            "kind": "vocabulary",
+            "skill": "noun_collocation",
+            "difficulty": "medium",
+            "prompt": "The director commended the cast and stage crew for their outstanding performance during the final dress {{q22}} prior to opening night.",
+            "options": [
+              {
+                "label": "A",
+                "text": "transaction"
+              },
+              {
+                "label": "B",
+                "text": "clearance"
+              },
+              {
+                "label": "C",
+                "text": "rehearsal"
+              },
+              {
+                "label": "D",
+                "text": "prescription"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格需與 dress 搭配構成表演藝術領域的固定用語「彩排」，故選 (C) rehearsal。",
+              "reasoning_zh": "句意為導演讚揚了全體演員與舞台工作人員在首演之夜前的最後一次「著裝彩排」中的出色表現。「dress rehearsal」為戲劇與演出中的固定專業名詞，指穿著正式戲服，配合正式道具與舞台效果進行的總彩排。(A) transaction（交易）、(B) clearance（出清、安全許可）、(D) prescription（處方箋）皆脫離此藝術演出情境。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "transaction 意為商業交易或帳務往來，不能與 dress 搭配成表演活動。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "clearance 意為出清特賣或審批許可，不符合劇團彩排語境。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "rehearsal 意為排練，與 dress 構成固定搭配 dress rehearsal（總彩排、著裝排演）。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "prescription 意為醫療處方或明文規定，脫離劇場情境。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「dress rehearsal」指公演前穿著正式戲服並配合完整舞台效果的「總彩排」，為演藝與活動籌辦中的常用固定詞組。"
+            }
+          },
+          {
+            "id": "q23",
+            "kind": "vocabulary",
+            "skill": "business_verb_meaning",
+            "difficulty": "easy",
+            "prompt": "Logistics supervisors must {{q23}} the shipping manifest against the physical cargo before any delivery truck departs from the loading dock.",
+            "options": [
+              {
+                "label": "A",
+                "text": "postpone"
+              },
+              {
+                "label": "B",
+                "text": "verify"
+              },
+              {
+                "label": "C",
+                "text": "hesitate"
+              },
+              {
+                "label": "D",
+                "text": "invent"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需填入表示將貨運單據與實物進行「核對、比對」的及物動詞，故選 (B) verify。",
+              "reasoning_zh": "句意為在送貨卡車駛離裝載碼頭前，物流主管必須將貨運艙單與實體貨物進行「核對」。「verify A against B」表示對照 B 來查驗確認 A 的正確性，完全契合出貨查驗程序。(A) postpone（延後）、(C) hesitate（猶豫，為不及物動詞）、(D) invent（虛構、發明；invent ... against 搭配不合）皆不正確。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "postpone 意為推遲、延期，無法與 against the physical cargo 構成合理解釋。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "verify 意為核對、查證，與 manifest（貨物艙單）及 against 連用構成標準核對搭配。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "hesitate 意為猶豫，為不及物動詞，不能直接接賓語 the shipping manifest。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "invent 意為捏造、發明，與 verify against 的比對查核關係不符。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「verify A against B」是倉儲、物流與稽核情境中表示「對照 B 來核實 A」的標準動詞結構。"
+            }
+          },
+          {
+            "id": "q24",
+            "kind": "grammar",
+            "skill": "preposition",
+            "difficulty": "medium",
+            "prompt": "{{q24}} the terms of the convention hall rental agreement, all promotional banners must be removed within two hours after the conference concludes.",
+            "options": [
+              {
+                "label": "A",
+                "text": "Under"
+              },
+              {
+                "label": "B",
+                "text": "Above"
+              },
+              {
+                "label": "C",
+                "text": "Into"
+              },
+              {
+                "label": "D",
+                "text": "Beside"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "搭配 the terms of the agreement 表示「依據合約條款」，需選介系詞 (A) Under。",
+              "reasoning_zh": "句意為「依據」會議廳租賃協議的條款規定，所有宣傳橫幅必須在會議結束後兩小時內拆除。在商務契約語境中，under the terms of 常用於表達受協議條款規範或依約執行。四個選項中，(A) Under 符合此用法；(B) Above、(C) Into、(D) Beside 在本句中均不能表示依據條款。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "Under 與 the terms of 連用構成 under the terms of，表示「根據／依據……的條款規範」。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "Above 在本句中不能表示依據條款。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "Into 在本句中不能表示依據條款。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "Beside 在本句中不能表示依據條款。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "under the terms of the agreement / contract 表示「依據協議／合約條款」。according to the terms of 與較正式的 pursuant to the terms of 也可用於相同的句首介系詞片語結構，但本題選項中只有 Under 符合語意。"
+            }
+          },
+          {
+            "id": "q25",
+            "kind": "grammar",
+            "skill": "comparison",
+            "difficulty": "medium",
+            "prompt": "The evening harbor cruise has become {{q25}} than the afternoon tour because it includes live musical entertainment and a scenic sunset view.",
+            "options": [
+              {
+                "label": "A",
+                "text": "most popular"
+              },
+              {
+                "label": "B",
+                "text": "popularity"
+              },
+              {
+                "label": "C",
+                "text": "popularly"
+              },
+              {
+                "label": "D",
+                "text": "more popular"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格後方有比較連接詞 than，需填入形容詞比較級，故選 (D) more popular。",
+              "reasoning_zh": "本句比較兩個行程的受歡迎程度，需要形容詞比較級 more popular。become 也可接受名詞片語補語，如 become a manager；popularly 不能充當本題所需的比較級補語。(A) most popular 為最高級，無法與後方的 than 直接搭配；(B) 為名詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "most popular 為最高級形式，後方有 than 引入比較對象時不可使用最高級。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "popularity 為名詞，不能作此處與 than 連用的比較級結構。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "popularly 為副詞，不能充當本題所需的比較級補語。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "more popular 為形容詞比較級，與後方的 than 構成完整的比較級句型。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "句中出現「than + 比較對象」時，需選用比較級形式；多音節形容詞通常在前加上 more 構成比較級。"
+            }
+          },
+          {
+            "id": "q26",
+            "kind": "vocabulary",
+            "skill": "phrasal_verb",
+            "difficulty": "easy",
+            "prompt": "The manager of the independent bookshop decided to {{q26}} a weekly reading club to encourage greater community engagement among local residents.",
+            "options": [
+              {
+                "label": "A",
+                "text": "fall behind"
+              },
+              {
+                "label": "B",
+                "text": "turn down"
+              },
+              {
+                "label": "C",
+                "text": "set up"
+              },
+              {
+                "label": "D",
+                "text": "give in"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "空格處需填入表示「創立、開辦」讀書會的片語動詞，故選 (C) set up。",
+              "reasoning_zh": "句意為獨立書店經理決定「創辦」一個每週讀書會，以鼓勵當地居民更深入的社區參與。(C) set up 表示建立、組織（如 set up a club / committee / business），符合句意。(A) fall behind 意為落後，不能在此表達建立社團；(B) turn down 意為拒絕或調低；(D) give in 意為讓步，皆不合語意。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "fall behind 意為落後，無法接讀書會表達創辦或組織該社團。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "turn down 意為拒絕，與後文促進社區參與的目的不合。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "set up 意為設立、創立，後接 a weekly reading club，語意完全自然通順。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "give in 意為讓步、屈服，不符合經理主動推行社區活動的語境。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "「set up」意為設立或籌組（等同於 establish 或 organize），是職場與專案規劃中極為常見的片語動詞。"
+            }
+          },
+          {
+            "id": "q27",
+            "kind": "grammar",
+            "skill": "infinitive_gerund",
+            "difficulty": "easy",
+            "prompt": "The branch manager reminds visitors {{q27}} the automated catalog system before asking circulation staff for assistance in locating rare volumes.",
+            "options": [
+              {
+                "label": "A",
+                "text": "check"
+              },
+              {
+                "label": "B",
+                "text": "to check"
+              },
+              {
+                "label": "C",
+                "text": "checking"
+              },
+              {
+                "label": "D",
+                "text": "checked"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "動詞 remind 接受詞後表示提醒執行某動作，受詞補語使用不定詞，故選 (B) to check。",
+              "reasoning_zh": "英文動詞 remind 在表達提醒某人去做某事時，使用「remind someone to do something」結構，受詞補語使用不定詞 (B) to check。(A) 為原形動詞；(C) 為動名詞／現在分詞；(D) 為過去分詞，皆不符合此句構。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "check 為原形動詞，remind someone 不接原形動詞作受詞補語。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "to check 為不定詞，符合「remind + 受詞 + to V」表達指示動作的標準文法句型。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "checking 為動名詞／現在分詞，不符合此處提醒某人執行動作的句構。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "checked 為過去分詞，不能在此作主動執行的動作補語。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "表示要求或提醒某人執行動作時，常採用「動詞 + 受詞 + 不定詞（to V）」句構，如 remind / advise / encourage / require someone to do something。注意 remind 亦有 remind someone of something 等其他常見搭配。"
+            }
+          },
+          {
+            "id": "q28",
+            "kind": "grammar",
+            "skill": "tense_aspect",
+            "difficulty": "medium",
+            "prompt": "By the time the annual conference convenes next October, the association's committee {{q28}} more than three hundred research fellowship applications.",
+            "options": [
+              {
+                "label": "A",
+                "text": "will have processed"
+              },
+              {
+                "label": "B",
+                "text": "was processing"
+              },
+              {
+                "label": "C",
+                "text": "processed"
+              },
+              {
+                "label": "D",
+                "text": "is processing"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "主句表達在未來特定時間點前將已完成的動作總量，需用未來完成式，故選 (A) will have processed。",
+              "reasoning_zh": "本句預測截至未來會議召開時將已完成的申請件數，四個選項中 will have processed 最符合該完成結果。By the time 本身不強制未來完成式，例如 By the time you arrive, the office will be closed 也正確；應依主句要表達的狀態或完成結果選擇時態。(B) was processing 為過去進行式，(C) processed 為過去式，(D) is processing 為現在進行式，皆無法適當表達截至未來時點累積完成之數量。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "will have processed 為未來完成式，準確呈現到該次十月會議召開時將已處理完畢的累積件數。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "was processing 為過去進行式，無法搭配未來時間點 next October。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "processed 為過去簡單式，與未來時間標誌矛盾。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "is processing 為現在進行式，無法表達在未來期限之前完成該數量的動作結果。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "描述在未來某時間點前「將已經累積完成」的動作或總數時，主要子句選用未來完成式（will have + p.p.）。"
+            }
+          },
+          {
+            "id": "q29",
+            "kind": "grammar",
+            "skill": "subject_verb_agreement",
+            "difficulty": "easy",
+            "prompt": "The annual subscription fee for the premium analytics tools {{q29}} billed to the corporate account at the beginning of each billing cycle.",
+            "options": [
+              {
+                "label": "A",
+                "text": "are"
+              },
+              {
+                "label": "B",
+                "text": "were"
+              },
+              {
+                "label": "C",
+                "text": "have been"
+              },
+              {
+                "label": "D",
+                "text": "is"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "主詞核心名詞為單數 fee，動詞需用第三人稱單數形式 is，故選 (D) is。",
+              "reasoning_zh": "本句主詞核心為單數名詞「The annual subscription fee」（年度訂閱費用），介系詞片語「for the premium analytics tools」為後置修飾語，其內部的複數名詞 tools 不是主詞核心。述語為被動語態且陳述在每個帳務週期開始時向公司帳戶開帳的固定規定，主詞核心 fee 是第三人稱單數，現在式被動用 is billed。(A) are 不符合這個主詞；若使用過去式，此處應為 was 而非 were；若使用現在完成式，此處應為 has been 而非 have been。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "are 不符合第三人稱單數主詞 fee 的單複數一致性。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "were 為過去式動詞，若單數主詞 fee 使用過去式被動亦應為 was，且此句陳述常態作業規定。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "have been 為完成式助動詞，第三人稱單數主詞 fee 若使用現在完成式應為 has been。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "is 為單數現在式動詞，與第三人稱單數主詞核心名詞 fee 保持一致。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "判斷主動詞單複數一致性時，需找出真正的主詞核心詞（Head Noun），排除其後介系詞短語（如 for..., of..., with...）內之名詞干擾。"
+            }
+          },
+          {
+            "id": "q30",
+            "kind": "grammar",
+            "skill": "conjunctive_adverb",
+            "difficulty": "medium",
+            "prompt": "Seats on the airport express shuttle are limited during peak hours; {{q30}}, passengers are strongly urged to reserve seats in advance.",
+            "options": [
+              {
+                "label": "A",
+                "text": "alternatively"
+              },
+              {
+                "label": "B",
+                "text": "otherwise"
+              },
+              {
+                "label": "C",
+                "text": "therefore"
+              },
+              {
+                "label": "D",
+                "text": "nevertheless"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "前後兩子句具備因果推理關係，需填入表示「因此」的連接副詞，故選 (C) therefore。",
+              "reasoning_zh": "座位有限構成提前預約的理由，因此 therefore 最能表達本句關係。alternatively 引出可替代的方案，但前句只陳述座位限制，並未提出另一個方案；otherwise 引出相反條件的後果，nevertheless 引出讓步對比，也不符合本句的因果關係。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "alternatively 意為或者、替代方案，但前半句僅陳述座位限制事實，並非提出供二選一的替代方案。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "otherwise 意為否則，用於引出違反前述條件的後果，不符合此處直接的因果因應建議。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "therefore 為表因果推論的連接副詞（因此），自然連接「座位有限」與「建議提前預約」的因果關係。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "nevertheless 意為儘管如此，引出轉折讓步，與此處順理成章的因應措施相矛盾。"
+                }
+              ],
+              "evidence": [],
+              "takeaway_zh": "連接副詞（如 therefore, however, moreover）用於銜接兩獨立子句：順承因果用 therefore，轉折用 however / nevertheless，提供替代選項用 alternatively。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 5,
+        "question_count": 30,
+        "genres": [],
+        "word_range": [
+          0,
+          0
+        ],
+        "scenario": "recruitment",
+        "event": "a changed specification",
+        "mode": "single",
+        "slots": [
+          {
+            "skill": "pronoun_case_reference",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "equipment rental"
+          },
+          {
+            "skill": "preposition",
+            "difficulty": "easy",
+            "kind": "grammar",
+            "scenario": "harbor tour"
+          },
+          {
+            "skill": "conjunction_vs_preposition",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "airport shuttle"
+          },
+          {
+            "skill": "word_form_noun",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "farmers market"
+          },
+          {
+            "skill": "passive_voice",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "audio equipment"
+          },
+          {
+            "skill": "subordinate_conjunction",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "local newspaper"
+          },
+          {
+            "skill": "adjective_collocation",
+            "difficulty": "easy",
+            "kind": "vocabulary",
+            "scenario": "office relocation"
+          },
+          {
+            "skill": "tense_aspect",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "trade fair"
+          },
+          {
+            "skill": "verb_collocation",
+            "difficulty": "medium",
+            "kind": "vocabulary",
+            "scenario": "museum exhibition"
+          },
+          {
+            "skill": "word_form_adjective",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "architectural studio"
+          },
+          {
+            "skill": "adverb_collocation",
+            "difficulty": "medium",
+            "kind": "vocabulary",
+            "scenario": "product packaging"
+          },
+          {
+            "skill": "word_form_adverb",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "retail returns"
+          },
+          {
+            "skill": "determiner_quantifier",
+            "difficulty": "easy",
+            "kind": "grammar",
+            "scenario": "employee benefits"
+          },
+          {
+            "skill": "verb_collocation",
+            "difficulty": "medium",
+            "kind": "vocabulary",
+            "scenario": "local newspaper"
+          },
+          {
+            "skill": "business_adjective_meaning",
+            "difficulty": "easy",
+            "kind": "vocabulary",
+            "scenario": "translation service"
+          },
+          {
+            "skill": "relative_clause",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "community garden"
+          },
+          {
+            "skill": "noun_collocation",
+            "difficulty": "medium",
+            "kind": "vocabulary",
+            "scenario": "bicycle repair"
+          },
+          {
+            "skill": "word_form_participle",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "restaurant catering"
+          },
+          {
+            "skill": "business_noun_meaning",
+            "difficulty": "medium",
+            "kind": "vocabulary",
+            "scenario": "trade fair"
+          },
+          {
+            "skill": "word_form_adverb",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "staff training"
+          },
+          {
+            "skill": "word_form_noun",
+            "difficulty": "easy",
+            "kind": "grammar",
+            "scenario": "farmers market"
+          },
+          {
+            "skill": "noun_collocation",
+            "difficulty": "medium",
+            "kind": "vocabulary",
+            "scenario": "theater production"
+          },
+          {
+            "skill": "business_verb_meaning",
+            "difficulty": "easy",
+            "kind": "vocabulary",
+            "scenario": "warehouse dispatch"
+          },
+          {
+            "skill": "preposition",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "conference planning"
+          },
+          {
+            "skill": "comparison",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "harbor tour"
+          },
+          {
+            "skill": "phrasal_verb",
+            "difficulty": "easy",
+            "kind": "vocabulary",
+            "scenario": "independent bookshop"
+          },
+          {
+            "skill": "infinitive_gerund",
+            "difficulty": "easy",
+            "kind": "grammar",
+            "scenario": "public library"
+          },
+          {
+            "skill": "tense_aspect",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "professional association"
+          },
+          {
+            "skill": "subject_verb_agreement",
+            "difficulty": "easy",
+            "kind": "grammar",
+            "scenario": "software subscription"
+          },
+          {
+            "skill": "conjunctive_adverb",
+            "difficulty": "medium",
+            "kind": "grammar",
+            "scenario": "airport shuttle"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u002",
+      "content_sha256": "77662762c2183b4924b74766fabbcab7d05d5ee477923a4a2556bc631d267bee",
+      "content": {
+        "part": 6,
+        "title": "Notice of Revised Excursion Schedule",
+        "scenario_summary": "A harbor cruise operations liaison writes an official update letter to a civic association coordinator, detailing a revised departure time and lengthened outer-channel route due to tidal conditions, while explaining maritime protocol for channel congestion.",
+        "documents": [
+          {
+            "id": "d1",
+            "genre": "letter",
+            "title": "Notice of Revised Excursion Schedule",
+            "blocks": [
+              {
+                "id": "d1-b1",
+                "type": "heading",
+                "text": "Windward Harbor Tours | Port Operations Department",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b2",
+                "type": "field",
+                "text": "Date: August 14",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b3",
+                "type": "field",
+                "text": "To: Eleanor Hughes, Events Coordinator, Northbrook Civic Association",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b4",
+                "type": "paragraph",
+                "text": "Dear Ms. Hughes,",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b5",
+                "type": "paragraph",
+                "text": "We are writing regarding the private harbor excursion scheduled for your association on August 22. Scheduled maintenance at North Pier has required us to relocate check-in to Gate 4 for the sixty delegates in your group. Please remind {{q1}} to arrive at Gate 4 by 2:15 P.M.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b6",
+                "type": "paragraph",
+                "text": "To accommodate low tide conditions, our dispatchers have moved the departure time from 1:30 P.M. to 2:45 P.M. While {{q2}} adjustment pushes the sailing later into the afternoon, it provides superior views of the coastal cliffs. The updated route also incorporates a loop around historic Fort Gorges. {{q3}} If this extended voyage causes any conflicts with your evening banquet, please notify our coordinator immediately.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b7",
+                "type": "paragraph",
+                "text": "Finally, harbor traffic controllers have advised all commercial vessels to {{q4}} departure by fifteen minutes if cargo barges are maneuvering near the channel. We will confirm the exact boarding status at check-in.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b8",
+                "type": "field",
+                "text": "Sincerely, Martin Vance, Port Operations Liaison",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "text_completion",
+            "skill": "pronoun_reference",
+            "difficulty": "easy",
+            "prompt": "Choose the best answer for blank {{q1}}.",
+            "options": [
+              {
+                "label": "A",
+                "text": "them"
+              },
+              {
+                "label": "B",
+                "text": "him"
+              },
+              {
+                "label": "C",
+                "text": "itself"
+              },
+              {
+                "label": "D",
+                "text": "ours"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "答案為 (A)。第三人稱複數受格代名詞 them 能正確指回前句提及的複數人員「the sixty delegates」（六十位代表）。",
+              "reasoning_zh": "及物動詞 remind 後方需要能指回前文受影響對象的受詞形式。前一句提到「relocate check-in to Gate 4 for the sixty delegates in your group」（為貴團的六十位代表將報到處改至第四號登船門），指涉對象為收信人團體中的複數人員（delegates），因此需使用第三人稱複數受格代名詞 them 作受詞。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。them 為第三人稱複數受格代名詞，能正確指回前文的複數人員 the sixty delegates。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。him 為第三人稱單數男性受格代名詞，無法指代複數的 delegates。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。itself 為單數中性反身代名詞，既無法指稱複數的人員代表，且祈使句中隱含的主詞為 you，受詞指涉他人時亦不可使用反身代名詞 itself。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。ours 是所有格代名詞，能作受詞，表示「我們的……」。但前文談的是收信者所屬團體的六十位代表，沒有引入船公司自己的代表，因此 ours 無法正確指回此處要提醒的人員。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b5",
+                  "quote": "Scheduled maintenance at North Pier has required us to relocate check-in to Gate 4 for the sixty delegates in your group. Please remind {{q1}} to arrive at Gate 4 by 2:15 P.M."
+                }
+              ],
+              "takeaway_zh": "解代名詞題時，應先從前文確認先行詞的人稱、單複數與實際指涉對象，再選擇文法格位與語意指稱完全吻合的代名詞。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "text_completion",
+            "skill": "reference_cohesion",
+            "difficulty": "medium",
+            "prompt": "Choose the best answer for blank {{q2}}.",
+            "options": [
+              {
+                "label": "A",
+                "text": "these"
+              },
+              {
+                "label": "B",
+                "text": "this"
+              },
+              {
+                "label": "C",
+                "text": "several"
+              },
+              {
+                "label": "D",
+                "text": "either"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "答案為 (B)。指示限定詞 this 正確修飾單數可數名詞 adjustment，並回指前一句將出發時間由 1:30 P.M. 移至 2:45 P.M. 的時間調整。",
+              "reasoning_zh": "空格後方為單數可數名詞 adjustment（調整）。前一句指出調度員已將出發時間從下午 1:30 延後至 2:45（moved the departure time from 1:30 P.M. to 2:45 P.M.）。單數指示限定詞 this 能在文法上修飾單數名詞，並在篇章上精確回指此項時間調動。選項 (A) these 與 (C) several 在文法上均須接複數名詞；選項 (D) either 為表示「兩者中任一」的分配限定詞，但前句僅敘述單一項確定的時間調整，並無兩項備選方案可供指涉。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。these 為複數指示限定詞，後方必須接複數名詞（these adjustments），不可修飾單數名詞 adjustment。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。this 為單數指示限定詞，後接單數名詞 adjustment，並精確回指前句調度員將出發時間延後至 2:45 P.M. 的這項調整。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。several 為不定數量詞，意為「數個」，後方必須接複數名詞（several adjustments），無法修飾單數名詞。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。either 為分配限定詞，意為「兩者之中的任一個」，其語意前提必須存在兩項可供選擇的對象或方案；本篇此處僅敘述單一項已確定的出發時間變更，並不存在兩項調整方案，因此 either 在語意指涉上不成立。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b6",
+                  "quote": "To accommodate low tide conditions, our dispatchers have moved the departure time from 1:30 P.M. to 2:45 P.M. While {{q2}} adjustment pushes the sailing later into the afternoon, it provides superior views of the coastal cliffs."
+                }
+              ],
+              "takeaway_zh": "判斷限定詞時，先檢查名詞的單複數，再確認句子是在回指已提及的事情、介紹另一件事，還是逐一描述多個項目。this 可回指前文的單一調整，但不能只因前文出現一項事件，就認定其他限定詞一定錯誤。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "sentence_completion",
+            "skill": "sentence_cohesion",
+            "difficulty": "medium",
+            "prompt": "Choose the best answer for blank {{q3}}.",
+            "options": [
+              {
+                "label": "A",
+                "text": "As a result, the vessel will omit the coastal landmarks to ensure an earlier return."
+              },
+              {
+                "label": "B",
+                "text": "Instead, thirty minutes will be deducted from the scheduled sailing time."
+              },
+              {
+                "label": "C",
+                "text": "Consequently, twenty minutes have been added to the total voyage at no extra charge."
+              },
+              {
+                "label": "D",
+                "text": "In response, your association has requested that the entire afternoon charter be shortened."
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "答案為 (C)。該句說明航程因加入新景點而延長二十分鐘且不加價，承接前句的新增繞行路線，並銜接後句「this extended voyage」可能影響晚宴的考量。",
+              "reasoning_zh": "空格前一句提到「The updated route also incorporates a loop around historic Fort Gorges.」（更新後的路線亦包含環繞歷史名勝戈吉斯堡的一段航程），後一句則寫道「If this extended voyage causes any conflicts with your evening banquet...」（若此次延長的航程與貴單位的晚宴產生任何衝突……）。因此，空格處必須交代「航程時間延長」的具體事實，(C) 選項指出總航程增加了二十分鐘，在語意因果與前後詞彙（extended voyage）呼應上最為嚴密。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。該選項稱「船隻將略過沿海地標以提早返航」，與前句增加古堡繞行（incorporates a loop）以及後句提及「extended voyage（延長航程）」完全矛盾。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。該選項稱「航程時間將縮減三十分鐘」，然而後文明確提及「extended voyage（延長的航程）」以及可能與晚宴衝突，兩者在時間增減方向上相反。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "正確。該選項以 Consequently 承接前文繞行古堡的新增路線，明確交代總航程增加了二十分鐘，同時為後句的 this extended voyage 提供了明確的指涉依據與晚宴衝突考量，前後銜接最為嚴密。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。D 提到協會要求縮短行程，卻沒有說明前句新增繞行如何導致後句所稱的「延長航程」。C 直接交代增加二十分鐘，能同時承接新增路線與可能影響晚宴的時程問題，因此最能完成這段的因果關係。不能只憑 if 就推斷雙方先前完全沒有聯絡。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b6",
+                  "quote": "The updated route also incorporates a loop around historic Fort Gorges. {{q3}} If this extended voyage causes any conflicts with your evening banquet, please notify our coordinator immediately."
+                }
+              ],
+              "takeaway_zh": "解篇章完整句子填空時，需善用「雙向銜接檢驗法」：比對前句提供的訊息（新增景點）與後句產生的關聯（extended voyage 引發的時程顧慮），排除時間增減方向相反或因果斷裂的選項。"
+            }
+          },
+          {
+            "id": "q4",
+            "kind": "text_completion",
+            "skill": "contextual_vocabulary",
+            "difficulty": "hard",
+            "prompt": "Choose the best answer for blank {{q4}}.",
+            "options": [
+              {
+                "label": "A",
+                "text": "suppress"
+              },
+              {
+                "label": "B",
+                "text": "discard"
+              },
+              {
+                "label": "C",
+                "text": "impede"
+              },
+              {
+                "label": "D",
+                "text": "defer"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "答案為 (D)。動詞 defer 在商務與航運調度中表示「推遲、延後」，與受詞 departure 及時間幅度片語 by fifteen minutes 搭配，精確表達將出發時間順延十五分鐘。",
+              "reasoning_zh": "此題測驗高階商務調度語彙。句中描述港口交通管制人員的調度指示：若貨運駁船在航道附近運作，商業船隻應將出發時間往後順延十五分鐘。及物動詞 defer 意為「推遲、延後（put off / delay to a later time）」，常接特定行程或營運事項（如 departure、payment、action），並能接以 by 引導的時間幅度片語（by fifteen minutes）。干擾選項 impede 雖常出現在交通延誤語境中，但其語意為「阻礙、妨礙進行」，並非指示班次「延後出發」的正規表達方式；suppress（壓制、查禁）與 discard（拋棄、摒棄）在語意上亦無法與 departure by fifteen minutes 構成合理的調度動作。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。suppress 意為「鎮壓、壓制、抑制」（如 suppress a protest 或 suppress evidence），無法與出發時間順延的調度情境搭配。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。discard 意為「拋棄、摒棄、丟棄」，在此處無法用來描述將船隻出發時間延後十五分鐘。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。impede 表示阻礙某事進行，並不限定只能阻礙別人。本句要求各船隻把自己的出發時間往後安排十五分鐘，最自然、精確的用語是 defer；impede departure 並不是這項調度指示的自然表達。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "正確。defer 表示「推遲、延後」，在此處接 departure 並搭配時間差片語 by fifteen minutes，能精確傳達港管人員要求將出發時間順延十五分鐘的指示。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b7",
+                  "quote": "Finally, harbor traffic controllers have advised all commercial vessels to {{q4}} departure by fifteen minutes if cargo barges are maneuvering near the channel."
+                }
+              ],
+              "takeaway_zh": "在排程與營運調度語境中，表示「將某事件或班次推遲至稍後時間」且帶有時間差幅度（如 by fifteen minutes）時，應選用 defer、postpone 或 delay 等表示時間順延的動詞，而非表示阻礙進展的 impede 或表示捨棄的 discard。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 6,
+        "question_count": 4,
+        "genres": [
+          "letter"
+        ],
+        "word_range": [
+          95,
+          180
+        ],
+        "scenario": "harbor tour",
+        "event": "a revised schedule",
+        "mode": "single",
+        "slots": [
+          {
+            "skill": "pronoun_reference",
+            "difficulty": "easy",
+            "kind": "text_completion"
+          },
+          {
+            "skill": "reference_cohesion",
+            "difficulty": "medium",
+            "kind": "text_completion"
+          },
+          {
+            "skill": "sentence_cohesion",
+            "difficulty": "medium",
+            "kind": "sentence_completion"
+          },
+          {
+            "skill": "contextual_vocabulary",
+            "difficulty": "hard",
+            "kind": "text_completion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u003",
+      "content_sha256": "cd96169a0e8170544e70363424eeb02aa53cfc30a048409d038f22e6c027fc6e",
+      "content": {
+        "part": 7,
+        "title": "Guidelines for Library Hold Lockers",
+        "scenario_summary": "Fairview Public Library introduces a 24-hour smart hold locker system outside its main entrance, publishing user instructions covering request procedures, eligibility restrictions, notification and retrieval steps, and rules for unclaimed items.",
+        "documents": [
+          {
+            "id": "d1",
+            "genre": "instructions",
+            "title": "Fairview Public Library: Guidelines for 24-Hour Smart Hold Lockers",
+            "blocks": [
+              {
+                "id": "d1-b1",
+                "type": "heading",
+                "text": "Fairview Public Library: Guidelines for 24-Hour Smart Hold Lockers",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b2",
+                "type": "paragraph",
+                "text": "In response to community requests for greater convenience, Fairview Public Library has installed automated pickup lockers outside the main entrance. This service allows registered adult patrons to retrieve requested circulating materials at any time of day or night, regardless of operating hours.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b3",
+                "type": "heading",
+                "text": "Placing a Request",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b4",
+                "type": "paragraph",
+                "text": "When placing a hold through our online catalog, select \"External Lockers\" as your designated pickup location. [[1]] Please note that certain oversized items—such as framed art prints, musical instruments, and large interlibrary loan boxes—are ineligible for locker pickup and must still be collected at the main circulation desk.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b5",
+                "type": "heading",
+                "text": "Notification and Retrieval",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b6",
+                "type": "paragraph",
+                "text": "Once library personnel place your reserved items into a designated compartment, an automated notification will be sent via email or text message. [[2]] This notification contains a secure six-digit access code and specifies your assigned compartment number. Patrons have exactly 48 hours from the time the alert is generated to retrieve their materials. [[3]] To open the compartment, scan the barcode on your physical or digital library card at the kiosk terminal, then enter your access code on the touchscreen.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b7",
+                "type": "heading",
+                "text": "Returns and Unclaimed Items",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b8",
+                "type": "paragraph",
+                "text": "Materials borrowed from the lockers may be returned either inside the branch or through the exterior book drop adjacent to the kiosk. [[4]] Items not retrieved before the 48-hour pickup window expires will be returned to library shelves or routed to the next patron on the waitlist, and the hold will be canceled automatically.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "purpose",
+            "skill": "purpose",
+            "difficulty": "hard",
+            "prompt": "What is the primary purpose of the document?",
+            "options": [
+              {
+                "label": "A",
+                "text": "To describe the procedure for requesting items from other regional library branches"
+              },
+              {
+                "label": "B",
+                "text": "To announce that the main circulation desk will now remain open around the clock"
+              },
+              {
+                "label": "C",
+                "text": "To explain how patrons can utilize an automated self-service collection system"
+              },
+              {
+                "label": "D",
+                "text": "To inform borrowers about revised loan periods for multimedia equipment"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "本文旨在向讀者說明如何透過圖書館新設立的戶外自動取書儲物櫃，在開館時間之外自助領取預約館藏。",
+              "reasoning_zh": "文件標題為「24 小時智慧預約取書櫃使用指南」，第一段指出圖書館在正門外設置自動化取書櫃，使讀者在閉館時段也能全天候取書。後續段落依序說明線上預約方式、取書流程與逾期未取處理規定，因此全文核心主旨為說明這套自助取書系統的使用方式。(C) 為最適當的概括。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "不正確。文中僅在說明不適用取書櫃的品項時順帶提及「跨館互借包裹」（interlibrary loan boxes），並非詳細說明向其他分館申請館際互借的程序。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "不正確。第一段說明的是設在戶外大門旁的自動取書櫃提供 24 小時服務，並非圖書館內的主要流通櫃檯（main circulation desk）改為全天候開放。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "正確。文章完整介紹了新推出的自動取書櫃系統，包括如何預約、領取以及相關規範，符合說明讀者如何使用自助取件系統之目的。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "不正確。文中提及的 48 小時是指取書通知發出後的「取書保留期限」，並非變更視聽媒體設備的借閱天數（loan periods）。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b2",
+                  "quote": "Fairview Public Library has installed automated pickup lockers outside the main entrance. This service allows registered adult patrons to retrieve requested circulating materials at any time of day or night, regardless of operating hours."
+                }
+              ],
+              "takeaway_zh": "選擇能準確涵蓋文件主要目的與內容範圍的選項，避免把局部細節當成全文主旨，也不要選超出文章範圍的概括。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "detail",
+            "skill": "detail",
+            "difficulty": "medium",
+            "prompt": "According to the guidelines, what must a borrower do to open an assigned locker compartment?",
+            "options": [
+              {
+                "label": "A",
+                "text": "Show proof of identity to an attendant at the kiosk"
+              },
+              {
+                "label": "B",
+                "text": "Reply to an automated confirmation text message"
+              },
+              {
+                "label": "C",
+                "text": "Insert a printed receipt into the terminal slot"
+              },
+              {
+                "label": "D",
+                "text": "Scan a library card and input an access code"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "依據內文說明，讀者開啟儲物櫃時必須在機台終端掃描借書證條碼，並在觸控螢幕輸入通行碼。",
+              "reasoning_zh": "「Notification and Retrieval」段落詳細說明取書步驟：通知信會提供一組六位數通行碼（access code），而在操作機台時，讀者需在機台終端掃描實體或數位借書證條碼（scan the barcode on your physical or digital library card at the kiosk terminal），接著在觸控螢幕輸入通行碼（enter your access code on the touchscreen）以開啟櫃門。(D) 正確對應此兩項必要動作。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "不正確。文中要求讀者自行掃描借書證並輸入通行碼，沒有要求向現場人員出示身分證明；不能只憑設備自動化就斷言現場完全沒有工作人員。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "不正確。系統會發送電子郵件或簡訊通知，但讀者需親自到機台操作輸入密碼，而非回覆確認簡訊。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "不正確。文中沒有要求插入紙本收據或憑條；開櫃程序是掃描借書證條碼並在螢幕輸入通行碼。選項也沒有說這張收據必然與付款有關。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "正確。完全符合文中「scan the barcode on your physical or digital library card at the kiosk terminal, then enter your access code on the touchscreen」的說明。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b6",
+                  "quote": "To open the compartment, scan the barcode on your physical or digital library card at the kiosk terminal, then enter your access code on the touchscreen."
+                }
+              ],
+              "takeaway_zh": "程序細節題要完整比對所需動作及先後順序；本題在同一句指示中同時要求掃描借書證與輸入通行碼。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "sentence_insertion",
+            "skill": "sentence_insertion",
+            "difficulty": "easy",
+            "prompt": "Where would this sentence fit most naturally in the passage?\n\"Selecting this pickup location makes standard circulating books, audiobooks, and DVDs eligible for outside collection.\"",
+            "options": [
+              {
+                "label": "A",
+                "text": "[1]"
+              },
+              {
+                "label": "B",
+                "text": "[2]"
+              },
+              {
+                "label": "C",
+                "text": "[3]"
+              },
+              {
+                "label": "D",
+                "text": "[4]"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "d1",
+            "target_text": "Selecting this pickup location makes standard circulating books, audiobooks, and DVDs eligible for outside collection.",
+            "explanation": {
+              "summary_zh": "待插入句指出選擇此取書地點能使一般圖書、有聲書與 DVD 適用於戶外取件，承接前一句的線上地點選擇，並與後一句的超大物件排除限制形成對比，最適合置於 [1]。",
+              "reasoning_zh": "待插入句開頭的「Selecting this pickup location」明確指涉前一句在線上目錄選擇「External Lockers」作為指定取書地點（designated pickup location）的動作；後一句則緊接著以「Please note that certain oversized items... are ineligible for locker pickup」列出不適用的超大物件。置於 [1] 不僅承接前句自然，更建立起「適用常規品項 vs. 不適用超大物件」的清晰對照。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。句首的「Selecting this pickup location」緊扣前句在線上目錄選擇取書地點的指示，且說明的適用常規品項與後句的不適用超大物件（ineligible oversized items）形成緊密的語意對比。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "不正確。若置於 [2]，前句談論的是館方人員放入物品並發送通知，此處缺乏指定取書地點的直接情境；同時會打斷正在展開的通知說明（通知發出與其後 This notification 包含的內容），銜接較弱。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "不正確。[3] 處於 48 小時取件期限與現場機台操作步驟之間，在此插入線上預約時的品項適用規則會打斷現場取件程序的說明，銜接不如 [1] 自然。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "不正確。[4] 位於「還書與逾期未取物品」段落，前句說明還書管道，後句說明逾期未取的處理方式。此時插入取書地點與適用品項的說明會把主題拉回預約階段。雖然 this pickup location 仍可回指前文的 External Lockers，但此處與前後句的銜接明顯不如 [1] 自然。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "When placing a hold through our online catalog, select \"External Lockers\" as your designated pickup location. [[1]] Please note that certain oversized items—such as framed art prints, musical instruments, and large interlibrary loan boxes—are ineligible for locker pickup and must still be collected at the main circulation desk."
+                }
+              ],
+              "takeaway_zh": "指示詞可能在不同位置指向不同的合理先行詞。除了找出最佳位置的前後呼應，也要把待插句放到其他位置，檢查是否仍能形成自然、符合全文的另一種意思。"
+            }
+          },
+          {
+            "id": "q4",
+            "kind": "inference",
+            "skill": "inference",
+            "difficulty": "medium",
+            "prompt": "What is suggested about patrons who borrow framed art prints?",
+            "options": [
+              {
+                "label": "A",
+                "text": "They must submit their reservation requests in person."
+              },
+              {
+                "label": "B",
+                "text": "They must pick them up during standard library opening hours."
+              },
+              {
+                "label": "C",
+                "text": "They are charged an additional oversized handling fee."
+              },
+              {
+                "label": "D",
+                "text": "They are allowed a longer loan period than regular book borrowers."
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "由於超大裱框畫作無法使用 24 小時戶外取書櫃，讀者必須親自至館內流通櫃檯領取，由此可合理推知領取時間受限於圖書館正常開放時段。",
+              "reasoning_zh": "文中把可全天候使用的戶外取書櫃（at any time of day or night, regardless of operating hours）與必須在館內流通櫃檯領取的品項作對比，指出裱框畫作等超大物件「must still be collected at the main circulation desk」。因此可合理推知，借閱裱框畫作的讀者需在圖書館開放、櫃檯提供服務時領取。文章未另外列出櫃檯的詳細服務時間。(B) 為合理推論。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "不正確。「Placing a Request」段落開頭說明可透過線上目錄預約（When placing a hold through our online catalog）。畫作在文中受到的是領取地點限制，須至主要流通櫃檯取件；文章並未要求借閱者必須親自臨櫃提交預約申請。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。文章對比了 24 小時戶外取書櫃與必須在館內流通櫃檯領取的規定，可合理推知櫃檯取件必須配合圖書館的正常開放時段。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "不正確。文中僅說明超大品項不適用於取書櫃取件，未提及需要支付任何額外的處理費用（handling fee）。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "不正確。文中完全未比較不同類型借閱物品的借閱期限（loan period）長短。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b2",
+                  "quote": "This service allows registered adult patrons to retrieve requested circulating materials at any time of day or night, regardless of operating hours."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "Please note that certain oversized items—such as framed art prints, musical instruments, and large interlibrary loan boxes—are ineligible for locker pickup and must still be collected at the main circulation desk."
+                }
+              ],
+              "takeaway_zh": "推論題常透過常規設施（全天候戶外櫃）與例外處理（館內櫃檯）的條件對比來測驗隱含限制，作答時應把握文本提供的客觀對比，不延伸無關假設。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 7,
+        "question_count": 4,
+        "genres": [
+          "instructions"
+        ],
+        "word_range": [
+          170,
+          300
+        ],
+        "scenario": "public library",
+        "event": "a newly introduced service",
+        "mode": "single",
+        "slots": [
+          {
+            "skill": "purpose",
+            "difficulty": "hard",
+            "kind": "purpose"
+          },
+          {
+            "skill": "detail",
+            "difficulty": "medium",
+            "kind": "detail"
+          },
+          {
+            "skill": "sentence_insertion",
+            "difficulty": "easy",
+            "kind": "sentence_insertion"
+          },
+          {
+            "skill": "inference",
+            "difficulty": "medium",
+            "kind": "inference"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u004",
+      "content_sha256": "aad91d5ea713737992eb4b57a35c2f079ffb8eff2865afc0a6c9ccedc4cf41b7",
+      "content": {
+        "part": 7,
+        "title": "ChromaCraft Wholesale Support Chat",
+        "scenario_summary": "Elena Vance contacts Marcus Lin at ChromaCraft Wholesale about a bulk art supply quote for an autumn botanical illustration workshop. She requests more time to confirm the order because the sketchpad selection is pending. Marcus updates the record to retain the existing 15 percent promotional rate until Monday, October 16, at noon, and asks her to submit a tax-exempt certificate, a delivery bay code, and a finalized item list. Elena says the finance administrator will upload the documents on Monday morning.",
+        "documents": [
+          {
+            "id": "d1",
+            "genre": "chat",
+            "title": "ChromaCraft Wholesale Support Chat",
+            "blocks": [
+              {
+                "id": "d1-b1",
+                "type": "message",
+                "text": "Hi Marcus, I'm checking in about the bulk order quote (#CC-842) for our autumn botanical illustration workshop. The promotional 15 percent discount is set to expire this afternoon at 5:00 P.M.",
+                "speaker": "Elena Vance",
+                "timestamp": "9:14 A.M.",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b2",
+                "type": "message",
+                "text": "Good morning, Elena. Yes, our system shows the quote is currently pending your department's sign-off. Do you need any adjustments to the ceramic mixing palettes or watercolor pigment sets?",
+                "speaker": "Marcus Lin",
+                "timestamp": "9:16 A.M.",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b3",
+                "type": "message",
+                "text": "The items and quantities are fine, but our lead instructor is testing two different paper weights today, so we haven't selected the final cotton rag sketchpads yet. Could we possibly extend the confirmation deadline until Monday at noon?",
+                "speaker": "Elena Vance",
+                "timestamp": "9:18 A.M.",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b4",
+                "type": "message",
+                "text": "I can certainly do that for you. I've adjusted the system record so quote #CC-842 remains locked at the promotional rate until Monday, October 16, at 12:00 P.M. Please remember to submit your tax-exempt certificate and delivery bay code along with your finalized item list.",
+                "speaker": "Marcus Lin",
+                "timestamp": "9:21 A.M.",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b5",
+                "type": "message",
+                "text": "That takes a huge load off. I'll make sure our finance administrator uploads the documents first thing Monday morning.",
+                "speaker": "Elena Vance",
+                "timestamp": "9:23 A.M.",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b6",
+                "type": "message",
+                "text": "Sounds great. Have a wonderful weekend, Elena!",
+                "speaker": "Marcus Lin",
+                "timestamp": "9:24 A.M.",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "purpose",
+            "skill": "purpose",
+            "difficulty": "medium",
+            "prompt": "Why does Ms. Vance contact ChromaCraft Wholesale?",
+            "options": [
+              {
+                "label": "A",
+                "text": "To request additional time to finalize an art supply order"
+              },
+              {
+                "label": "B",
+                "text": "To dispute an unexpected delivery surcharge"
+              },
+              {
+                "label": "C",
+                "text": "To exchange damaged watercolor pigment sets"
+              },
+              {
+                "label": "D",
+                "text": "To cancel an upcoming illustration workshop"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "d1",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "Vance 女士聯繫供應商的主要目的是請求延長確認畫材訂單的截止時間，以便保留促銷折扣。",
+              "reasoning_zh": "在對話開頭，Vance 女士指出大量訂單報價（#CC-842）享有的 15% 促銷折扣即將在當天下午 5:00 到期，並在後續訊息說明講師仍在測試紙張規格，進而提出具體請求：「Could we possibly extend the confirmation deadline until Monday at noon?」（能否將確認截止時間延長至週一中午？）。這直接對應選項 (A) 的「請求額外時間以完成畫材訂單」。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。Vance 女士因尚未確定速寫本紙張規格，詢問是否能將訂單報價確認期限延長至週一中午以保留優惠。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。對話中並未提及任何運費額外收費或爭議款項。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。Vance 女士明確表示顏料與調色盤的數量與品項都沒問題（The items and quantities are fine），並無商品瑕疵或要求換貨。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。對話仍在安排工作坊所需的材料，沒有提出取消活動的要求。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b1",
+                  "quote": "The promotional 15 percent discount is set to expire this afternoon at 5:00 P.M."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b3",
+                  "quote": "Could we possibly extend the confirmation deadline until Monday at noon?"
+                }
+              ],
+              "takeaway_zh": "主旨目的題應結合發訊者的背景陳述與核心請求句（如 extend the confirmation deadline），快速對應同義改寫選項。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "detail",
+            "skill": "negative_detail",
+            "difficulty": "easy",
+            "prompt": "Which item does Mr. Lin NOT ask Ms. Vance to submit?",
+            "options": [
+              {
+                "label": "A",
+                "text": "A tax-exempt certificate"
+              },
+              {
+                "label": "B",
+                "text": "A delivery bay code"
+              },
+              {
+                "label": "C",
+                "text": "An advance deposit payment receipt"
+              },
+              {
+                "label": "D",
+                "text": "A finalized list of order items"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "d1",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "對話中並未要求 Vance 女士提交預付款訂金收據。",
+              "reasoning_zh": "Marcus Lin 在 9:21 A.M. 的訊息中明確列出了延長截止期後需提交的三個項目：「Please remember to submit your tax-exempt certificate and delivery bay code along with your finalized item list.」，分別對應選項 A（免稅證明）、選項 B（卸貨區代碼）與選項 D（最終項目清單）。對話中完全未提及繳納定金或提供付款收據（advance deposit payment receipt），故 (C) 為未提及項目。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。Lin 先生明確提醒要提交「tax-exempt certificate」（免稅證明）。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。Lin 先生明確要求提供「delivery bay code」（卸貨區代碼）。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "正確。全文並未提到任何預付定金的要求或提供付款收據。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。Lin 先生提醒需一併附上「finalized item list」（最終項目清單）。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "Please remember to submit your tax-exempt certificate and delivery bay code along with your finalized item list."
+                }
+              ],
+              "takeaway_zh": "本題可在 9:21 A.M. 的並列要求中找到三個已提及的項目，逐一對照選項後，找出沒有文中依據的一項。未提及不等於事實上不可能；其他 NOT 題也可能需要比對多處資訊。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "intent",
+            "skill": "intent",
+            "difficulty": "medium",
+            "prompt": "At 9:23 A.M., what does Ms. Vance most likely mean when she writes, \"That takes a huge load off\"?",
+            "options": [
+              {
+                "label": "A",
+                "text": "She is relieved that the promotional terms have been extended."
+              },
+              {
+                "label": "B",
+                "text": "She has finished carrying heavy art supplies into the studio."
+              },
+              {
+                "label": "C",
+                "text": "She is transferring her workshop responsibilities to another colleague."
+              },
+              {
+                "label": "D",
+                "text": "She is grateful to receive an additional discount on the materials."
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "d1",
+            "target_text": "That takes a huge load off.",
+            "explanation": {
+              "summary_zh": "Vance 女士使用此口語表達其如釋重負的心情，因為折扣報價的確認期限已順利獲准延後。",
+              "reasoning_zh": "在本題的 That takes a huge load off 中，說話者表示如釋重負、心理重擔減輕。前文 Vance 女士正為今天下午 5:00 折扣即將過期而焦慮，Lin 先生隨即在 9:21 A.M. 的訊息中答應將優惠價格鎖定至週一中午 12:00。因此 Vance 女士回覆這句話是為了表達自己對期限獲得延長感到非常寬慰，對應選項 (A)。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。Lin 先生同意延長優惠報價期限，排除了折扣過期的壓力，Vance 女士因此感到如釋重負。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。此選項將「load off」依字面直譯為搬運實體重物（carrying heavy art supplies），屬於字面混淆陷阱。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。Vance 女士僅表示會由財務同仁上傳文件，並無將整個工作坊籌辦責任轉交給他人的意思。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。供應商是維持原有的 15% 促銷價（remains locked at the promotional rate），並非給予額外加碼折扣。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "I've adjusted the system record so quote #CC-842 remains locked at the promotional rate until Monday, October 16, at 12:00 P.M."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b5",
+                  "quote": "That takes a huge load off."
+                }
+              ],
+              "takeaway_zh": "說話者意圖題需結合上下文發生的具體事件（如獲得展延許可），並理解習慣用語的引申語意（如 That takes a huge load off 表示解除壓力），避免落入字面翻譯的陷阱。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 7,
+        "question_count": 3,
+        "genres": [
+          "chat"
+        ],
+        "word_range": [
+          120,
+          240
+        ],
+        "scenario": "art supplies",
+        "event": "a deadline extension",
+        "mode": "single",
+        "slots": [
+          {
+            "skill": "purpose",
+            "difficulty": "medium",
+            "kind": "purpose"
+          },
+          {
+            "skill": "negative_detail",
+            "difficulty": "easy",
+            "kind": "detail"
+          },
+          {
+            "skill": "intent",
+            "difficulty": "medium",
+            "kind": "intent"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u005",
+      "content_sha256": "4b4e0631d3108bb2c83ebe6fb5f02e58ac2905bee6ed327989b3c5df1a83a52a",
+      "content": {
+        "part": 7,
+        "title": "Pinecrest Corporate Park Landscape Trial Agreement",
+        "scenario_summary": "A landscape architecture firm confirms a 60-day trial period of an eco-friendly courtyard redesign and maintenance plan with an office park manager, specifying included monitoring services and excluded high-branch tree pruning.",
+        "documents": [
+          {
+            "id": "d1",
+            "genre": "email",
+            "title": "Trial Agreement Email",
+            "blocks": [
+              {
+                "id": "d1-b1",
+                "type": "field",
+                "text": "To: Marcus Vance <m.vance@pinecrestpark.example>",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b2",
+                "type": "field",
+                "text": "From: Claire Sterling <c.sterling@halcyonlandscapes.example>",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b3",
+                "type": "field",
+                "text": "Date: April 14",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b4",
+                "type": "field",
+                "text": "Subject: Trial Period Agreement - Courtyard Redesign & Upkeep",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b5",
+                "type": "paragraph",
+                "text": "Dear Mr. Vance,",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b6",
+                "type": "paragraph",
+                "text": "Thank you for selecting Halcyon Landscape Architecture to pilot our drought-tolerant redesign for the Pinecrest Corporate Park central courtyard. As agreed during our site walkthrough on Monday, we are initiating a 60-day trial period starting on May 1.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b7",
+                "type": "paragraph",
+                "text": "Under this trial arrangement, Halcyon will provide physical plant health inspections every two weeks, automated soil-moisture sensor reports, and seasonal mulch replacement at no additional charge. Our horticulturists will also address any drainage complications along the eastern walkway before installing new perennial shrub beds. Please note that pruning branches more than ten feet above the ground is excluded from this trial and will continue to require a separate work order.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b8",
+                "type": "paragraph",
+                "text": "At the conclusion of the 60-day evaluation, our team will deliver a comprehensive sustainability report summarizing water savings and vegetative growth. You can then decide whether to transition into our standard annual groundskeeping contract.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b9",
+                "type": "paragraph",
+                "text": "Sincerely, Claire Sterling, Account Director, Halcyon Landscape Architecture",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "purpose",
+            "skill": "purpose",
+            "difficulty": "medium",
+            "prompt": "What is the primary purpose of the email?",
+            "options": [
+              {
+                "label": "A",
+                "text": "To solicit bids for a commercial landscape renovation"
+              },
+              {
+                "label": "B",
+                "text": "To outline the provisions of a temporary grounds management agreement"
+              },
+              {
+                "label": "C",
+                "text": "To submit an invoice for emergency drainage repairs"
+              },
+              {
+                "label": "D",
+                "text": "To dispute findings from a corporate facility inspection"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "本信件旨在說明雙方協議好的 60 天庭園景觀維護試行方案各項條款與服務範圍。",
+              "reasoning_zh": "寄件人在信件開頭說明雙方將展開為期 60 天的試行計畫（60-day trial period），並於後文逐一列出試行期間不另收費的維護項目、排水改善及排除事項，最後提及期滿後的評估與後續合約決定。因此整體主旨是概述這項臨時性場地管理協議（temporary grounds management agreement）的具體條款（provisions）。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "信件是景觀設計公司向客戶確認並說明已敲定的試行方案，而非向外界尋求景觀翻新的投標或報價（solicit bids）。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。信件清楚列出 60 天試行計畫（temporary grounds management agreement）所包含與排除的各項條款（provisions）。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "內文僅提及園藝師會順便著手處理排水問題，並非寄送緊急排水工程的請款單或發票（invoice）。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "信中完全沒有提及對設施檢查結果提出異議或反駁（dispute findings）。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b6",
+                  "quote": "As agreed during our site walkthrough on Monday, we are initiating a 60-day trial period starting on May 1."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b7",
+                  "quote": "Under this trial arrangement, Halcyon will provide physical plant health inspections every two weeks, automated soil-moisture sensor reports, and seasonal mulch replacement at no additional charge."
+                }
+              ],
+              "takeaway_zh": "主旨題應結合信件開頭的背景說明與主體段落的核心內容。「60-day trial period」在選項中常被改寫為「temporary agreement」等同義表達。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "detail",
+            "skill": "negative_detail",
+            "difficulty": "easy",
+            "prompt": "According to the email, what service is NOT included in the trial period?",
+            "options": [
+              {
+                "label": "A",
+                "text": "Pruning branches more than ten feet above the ground"
+              },
+              {
+                "label": "B",
+                "text": "Routine plant health evaluations every two weeks"
+              },
+              {
+                "label": "C",
+                "text": "Automated reporting on soil moisture levels"
+              },
+              {
+                "label": "D",
+                "text": "Seasonal replacement of courtyard mulch"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "信中明確註明離地超過十呎處的枝條修剪不包含在此次試行方案中。",
+              "reasoning_zh": "信件第二段最後一句明確指出：「pruning branches more than ten feet above the ground is excluded from this trial and will continue to require a separate work order」（離地超過十呎處的枝條修剪不包含在試行方案中，仍需另開工單）。因此 A 選項為未包含之項目。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。信件明確指出離地超過十呎處的枝條修剪（pruning branches more than ten feet above the ground）屬於排除項目（excluded），未包含在試行方案中。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "文中已載明會提供每兩週一次的植物健康檢查（physical plant health inspections every two weeks），故此項有包含在試行方案內。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "文中已載明會提供土壤濕度感測器自動報告（automated soil-moisture sensor reports），故此項有包含在試行方案內。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "文中已載明會更換地表覆蓋物且不另收費（seasonal mulch replacement at no additional charge），故此項有包含在試行方案內。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b7",
+                  "quote": "Please note that pruning branches more than ten feet above the ground is excluded from this trial and will continue to require a separate work order."
+                }
+              ],
+              "takeaway_zh": "解答否定細節題（NOT 題）時，應仔細對照各選項與原文的條件範圍。遇見 excluded from 或 not covered 等排除字詞時，要確認被排除的具體對象是特定高度的修剪工作、特定費用還是額外義務。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "vocabulary_in_context",
+            "skill": "vocabulary_in_context",
+            "difficulty": "medium",
+            "prompt": "In the email, the word \"address\" in paragraph 2 is closest in meaning to",
+            "options": [
+              {
+                "label": "A",
+                "text": "speak to"
+              },
+              {
+                "label": "B",
+                "text": "label"
+              },
+              {
+                "label": "C",
+                "text": "resolve"
+              },
+              {
+                "label": "D",
+                "text": "relocate"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "d1",
+            "target_text": "address",
+            "explanation": {
+              "summary_zh": "在第二段中，address 的受詞為排水問題（drainage complications），表示「著手處理、解決」之意，與 resolve 最為接近。",
+              "reasoning_zh": "信中說明「address any drainage complications along the eastern walkway before installing new perennial shrub beds」，表示園藝團隊在種植新灌木前，會先著手處理（deal with）步道旁的排水問題。雖然 address 本身側重採取行動處理而不必然保證問題徹底根除，但在所給選項中，resolve（解決、處理解決）意思最為接近。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "speak to 除了向人說話，在正式英文中也可表示提及或回應某個議題，因此不能僅憑受詞是抽象問題就斷定語法不通；但在本篇信件中，此處陳述的是園藝師在現場施作前採取的實際處理工作，而非單純談論或發表意見，因此不如 resolve 貼切。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "label 意為「貼標籤、標示」，並非此處著手處理工程問題之意。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "正確。resolve 意為「解決、處理解決」，在四個選項中與 address 此處著手處理問題（deal with）的語境含義最為接近。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "relocate 意為「搬遷、遷移」，與處理現場排水問題的文意不合。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b7",
+                  "quote": "Our horticulturists will also address any drainage complications along the eastern walkway before installing new perennial shrub beds."
+                }
+              ],
+              "takeaway_zh": "字彙題需依上下文語境選擇最適切的詞義。address 作動詞時常與 issue、problem 或 complication 搭配，表示「處理、應對（deal with / attend to）」，在選項中常以 resolve 作為最接近的代換詞。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 7,
+        "question_count": 3,
+        "genres": [
+          "email"
+        ],
+        "word_range": [
+          120,
+          240
+        ],
+        "scenario": "landscape design",
+        "event": "a trial period",
+        "mode": "single",
+        "slots": [
+          {
+            "skill": "purpose",
+            "difficulty": "medium",
+            "kind": "purpose"
+          },
+          {
+            "skill": "negative_detail",
+            "difficulty": "easy",
+            "kind": "detail"
+          },
+          {
+            "skill": "vocabulary_in_context",
+            "difficulty": "medium",
+            "kind": "vocabulary_in_context"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u006",
+      "content_sha256": "f6967f9919cac97a0cfc5c11a5bea70c193484f658586d0ed44385e848efd3ec",
+      "content": {
+        "part": 7,
+        "title": "Arboris Landscape Studio Services and Review",
+        "scenario_summary": "A residential landscape architecture studio outlines its project packages, commencement criteria, and timeline extension terms on its website. A customer writes a review detailing how an inspection backlog led to a project delay, which was smoothly resolved under the studio's schedule amendment policy.",
+        "documents": [
+          {
+            "id": "d1",
+            "genre": "web_page",
+            "title": "Arboris Landscape Studio - Residential Project Policies",
+            "blocks": [
+              {
+                "id": "d1-b1",
+                "type": "heading",
+                "text": "Arboris Landscape Studio: Standard Packages & Project Guidelines",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b2",
+                "type": "paragraph",
+                "text": "At Arboris Landscape Studio, we design functional outdoor spaces tailored to regional climates. The table below outlines our standard residential offerings, expected project durations, and upfront deposit requirements.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b3",
+                "type": "table",
+                "text": "Residential Landscaping Service Tiers",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [
+                  "Package Tier",
+                  "Included Scope",
+                  "Standard Timeline",
+                  "Required Deposit"
+                ],
+                "rows": [
+                  [
+                    "Meadow Garden Revival",
+                    "Perennial flowerbed design, mulch replenishment, and border pruning",
+                    "3–5 business days",
+                    "20%"
+                  ],
+                  [
+                    "Hardscape & Terrace Overhaul",
+                    "Site regrading, stone patio construction, and native shrub integration",
+                    "10–14 business days",
+                    "30%"
+                  ],
+                  [
+                    "Complete Estate Living",
+                    "Outdoor kitchen framing, retaining walls, and custom pergola woodwork",
+                    "20–25 business days",
+                    "40%"
+                  ]
+                ]
+              },
+              {
+                "id": "d1-b4",
+                "type": "heading",
+                "text": "Timeline Policies and Schedule Adjustments",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b5",
+                "type": "paragraph",
+                "text": "Project timelines commence once all local zoning clearances are secured. While our installation teams strive to meet all estimated completion dates, unforeseen circumstances such as severe weather or municipal inspection backlogs may require a deadline extension. In these situations, the lead project manager will provide a written Timeline Amendment Request. Clients must return written authorization within 48 hours after the request is sent to keep the crew assigned to their project.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b6",
+                "type": "paragraph",
+                "text": "If an extension exceeding three working days is caused by third-party permit delays or plant supplier backorders, Arboris waives the standard diagnostic fee for irrigation systems and provides a complimentary weather-sensing drip controller upon project handover.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          },
+          {
+            "id": "d2",
+            "genre": "review",
+            "title": "Customer Review: Arboris Landscape Studio",
+            "blocks": [
+              {
+                "id": "d2-b1",
+                "type": "heading",
+                "text": "Verified Client Review - Regional Homeowners Forum",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b2",
+                "type": "field",
+                "text": "Client: Julian Vance | Service Date: September–October | Rating: 4.5 / 5.0",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b3",
+                "type": "paragraph",
+                "text": "We hired Arboris Landscape Studio in mid-September to renovate our sloped backyard. The project involved substantial site regrading, laying an interlocking stone patio, and adding native shrubbery along the fence line. The construction crew was courteous, diligent, and kept the worksite tidy throughout the entire process.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b4",
+                "type": "paragraph",
+                "text": "Our work was originally scheduled for 11 business days, but municipal inspectors fell severely behind on approving our sub-surface drainage line, forcing a five-day stoppage. Our project manager, Clara Reyes, handled the matter smoothly. On October 5 at 10 A.M., she emailed the official schedule modification form outlining the revised completion target. I signed and returned it that afternoon.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b5",
+                "type": "paragraph",
+                "text": "When the crew concluded the final walkthrough on October 14, Clara pointed out the automated rain-sensing drip controller that had been installed at no extra charge on our garden bed lines to compensate for the postponed deadline. Arboris transformed an inconvenient permitting delay into a positive experience, and I will gladly recommend them to neighbors planning landscaping work.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "purpose",
+            "skill": "purpose",
+            "difficulty": "hard",
+            "prompt": "What is the primary purpose of the web page?",
+            "options": [
+              {
+                "label": "A",
+                "text": "To announce seasonal promotional discounts on patio furniture and lighting"
+              },
+              {
+                "label": "B",
+                "text": "To provide details on residential service packages and scheduling terms"
+              },
+              {
+                "label": "C",
+                "text": "To recruit experienced landscape contractors and installation crew leaders"
+              },
+              {
+                "label": "D",
+                "text": "To instruct property owners on how to apply for municipal drainage permits"
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "網頁的主要目的是說明住宅造景服務方案以及相關的工期與時程異動規定。",
+              "reasoning_zh": "第一篇網頁由兩個主要區塊構成：前半部透過表格列出各住宅造景方案的施作範圍、工期與訂金比例；後半部則詳述專案開始計時的時間點、工期展延的條件以及相關補償條款。選項 (B) 準確概括了全篇內容。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "文章並未提及任何戶外家具或燈飾的促銷折扣，免費控制器屬於工期延誤的補償，非季節性促銷。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。網頁詳細說明了住宅方案級別（residential offerings / service tiers）與時程相關規定（timeline policies and schedule adjustments）。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "網頁是面向潛在客戶介紹服務內容與條款，而非針對包商或工班主管的徵才啟事。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "網頁雖提及需要取得地方許可（zoning clearances）以及檢驗積壓的情況，但並非教導業主如何自行申請許可的指南。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b2",
+                  "quote": "The table below outlines our standard residential offerings, expected project durations, and upfront deposit requirements."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "Timeline Policies and Schedule Adjustments"
+                }
+              ],
+              "takeaway_zh": "解答主旨題時，需全面檢視文章的各個標題與主要結構，避免被個別細節（如許可證、補償贈品）誤導，選擇能涵蓋所有板塊的核心概念。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "detail",
+            "skill": "detail",
+            "difficulty": "medium",
+            "prompt": "According to the web page, when does the official timeline for a landscaping project begin?",
+            "options": [
+              {
+                "label": "A",
+                "text": "When the customer submits the initial deposit"
+              },
+              {
+                "label": "B",
+                "text": "As soon as building materials are delivered to the site"
+              },
+              {
+                "label": "C",
+                "text": "After all necessary local zoning clearances have been obtained"
+              },
+              {
+                "label": "D",
+                "text": "Immediately following the preliminary design consultation"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "根據網頁內容，工程時程是在取得所有當地土地分區許可後才正式開始計算。",
+              "reasoning_zh": "文件一的 d1-b5 段落首句明確指明：「Project timelines commence once all local zoning clearances are secured.」（一旦取得所有地方土地使用分區許可，專案時程便正式展開）。選項 (C) 的「After all necessary local zoning clearances have been obtained」是該句的改寫。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "雖然表格列出了訂金比例，但內文並未將訂金繳納列為計算工期的起始點。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "文中完全未提及工期是以材料送達現場當日開始計算。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "正確。符合 d1-b5 所述，一旦所有地方分區許可取得後即開始計算時程。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "文中未提及初步設計諮詢完成即開始起算專案工期。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b5",
+                  "quote": "Project timelines commence once all local zoning clearances are secured."
+                }
+              ],
+              "takeaway_zh": "細節題需鎖定題幹中的關鍵動詞或時態關聯詞（如 begin / commence），直接定位文章中的對應句以確認精準條件。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "inference",
+            "skill": "inference",
+            "difficulty": "easy",
+            "prompt": "What does Mr. Vance suggest about his experience with Arboris Landscape Studio?",
+            "options": [
+              {
+                "label": "A",
+                "text": "He was satisfied with how the company handled an unexpected delay."
+              },
+              {
+                "label": "B",
+                "text": "He was disappointed by the quality of the stone patio installation."
+              },
+              {
+                "label": "C",
+                "text": "He felt the final bill exceeded the initial estimate by too much."
+              },
+              {
+                "label": "D",
+                "text": "He had to hire another contractor to finish planting the shrubs."
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "Vance 先生對於該公司處理突發工期延誤的方式感到滿意。",
+              "reasoning_zh": "在第二篇評論中，Vance 先生稱讚專案經理 Clara Reyes 處理情況非常順暢（handled the matter smoothly），並提到該公司將原本令人困擾的許可延誤轉化為正向的體驗（transformed an inconvenient permitting delay into a positive experience），且樂意推薦給鄰居，顯見他對應對延誤的過程感到滿意。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。他在評價中高度讚許專案經理處理延誤的專業態度與公司的正面補償措施。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "不正確。評論整體持正面態度，且 Vance 先生並未對石露台的施工品質表達任何不滿。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "不正確。文中完全未提及最終帳單超出預算，也沒有對費用表達任何不滿。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "不正確。評論提到 Arboris 團隊完成最後巡檢，且 Vance 先生願意推薦該公司；文中沒有指出灌木種植未完成，也沒有提到他必須另聘承包商來完成這項工作。不能僅憑原團隊參與巡檢，就斷言施工期間絕對沒有其他承包商參與。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b4",
+                  "quote": "Our project manager, Clara Reyes, handled the matter smoothly."
+                },
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b5",
+                  "quote": "Arboris transformed an inconvenient permitting delay into a positive experience, and I will gladly recommend them to neighbors planning landscaping work."
+                }
+              ],
+              "takeaway_zh": "推論評論者的態度時，可觀察形容詞與評價句（如 handled the matter smoothly, positive experience, gladly recommend），即可迅速判斷其滿意傾向。"
+            }
+          },
+          {
+            "id": "q4",
+            "kind": "cross_document",
+            "skill": "cross_document",
+            "difficulty": "hard",
+            "prompt": "Under the studio's policy, by what date and time was Mr. Vance required to return his written authorization to keep the crew assigned to his project?",
+            "options": [
+              {
+                "label": "A",
+                "text": "October 6 at 10 A.M."
+              },
+              {
+                "label": "B",
+                "text": "October 7 at 10 A.M."
+              },
+              {
+                "label": "C",
+                "text": "October 8 at 10 A.M."
+              },
+              {
+                "label": "D",
+                "text": "October 9 at 10 A.M."
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "依據工作室規定與專案經理寄送修改表格的時間，Vance 先生須於 10 月 7 日上午 10 點前回傳書面授權以保留施工團隊。",
+              "reasoning_zh": "網頁規定，客戶須在修改申請寄出後 48 小時內回傳書面授權，以保留原施工團隊。評論指出申請於 10 月 5 日上午 10 點寄出；加上 48 小時，期限即為 10 月 7 日上午 10 點。因此選 B。網頁提供時限，評論提供實際寄送時間，兩篇資訊缺一不可。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "October 6 at 10 A.M. 為申請寄出後 24 小時的時間點，不符合 48 小時的期限規定。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。申請表於 10 月 5 日上午 10 點寄出，加上政策規定的 48 小時，截止期限即為 10 月 7 日上午 10 點。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "October 8 at 10 A.M. 為申請寄出後 72 小時的時間點，已超過規定的 48 小時。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "October 9 at 10 A.M. 為申請寄出後 96 小時的時間點，已超過規定的 48 小時。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b5",
+                  "quote": "Clients must return written authorization within 48 hours after the request is sent to keep the crew assigned to their project."
+                },
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b4",
+                  "quote": "On October 5 at 10 A.M., she emailed the official schedule modification form outlining the revised completion target."
+                }
+              ],
+              "takeaway_zh": "雙篇計算題需分別從兩篇文件中提取關鍵資訊：先從政策規定中確認時間限制（如 48 小時），再從另一篇找出具體的起始時間點（如 10 月 5 日上午 10 點），兩相結合推算出確切期限。"
+            }
+          },
+          {
+            "id": "q5",
+            "kind": "cross_document",
+            "skill": "cross_document",
+            "difficulty": "medium",
+            "prompt": "Based on the web page and the review, what percentage deposit was Mr. Vance most likely required to pay?",
+            "options": [
+              {
+                "label": "A",
+                "text": "20%"
+              },
+              {
+                "label": "B",
+                "text": "25%"
+              },
+              {
+                "label": "C",
+                "text": "40%"
+              },
+              {
+                "label": "D",
+                "text": "30%"
+              }
+            ],
+            "answer": "D",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "根據施作範圍，Vance 先生的工程最可能對應 Hardscape & Terrace Overhaul，該方案規定的訂金為 30%。",
+              "reasoning_zh": "文件二（d2-b3）中 Vance 先生描述了他的工程範圍包含大幅度整地、鋪設連鎖石露台並沿圍籬種植原生灌木（substantial site regrading, laying an interlocking stone patio, and adding native shrubbery along the fence line）。比對文件一（d1-b3）的方案表格，涵蓋整地、石露台建造與灌木整合（Site regrading, stone patio construction, and native shrub integration）的正是「Hardscape & Terrace Overhaul」方案；該方案所列的必要訂金（Required Deposit）即為 30%。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "20% 是 Meadow Garden Revival 方案的訂金比例，該方案施作範圍僅為多年生花圃、鋪設護根物與修剪，與 Vance 先生工程內容不符。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "網頁表格中的方案訂金比例僅有 20%、30% 與 40%，並無 25% 這個級別。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "40% 是 Complete Estate Living 方案的訂金比例，該方案包含戶外廚房與花架木工等大型項目，與 Vance 先生工程內容不符。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "正確。Vance 先生描述的整地、石露台與灌木種植最符合 Hardscape & Terrace Overhaul 方案，該方案規定的訂金為 30%。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b3",
+                  "quote": "Site regrading, stone patio construction, and native shrub integration"
+                },
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b3",
+                  "quote": "The project involved substantial site regrading, laying an interlocking stone patio, and adding native shrubbery along the fence line."
+                }
+              ],
+              "takeaway_zh": "跨篇對照題常需先從後續文件（如評論或信件）找出具體事實（如施工項目），再回查前篇規格或價格表格，鎖定對應方案以查出特定數值（如訂金比例）。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 7,
+        "question_count": 5,
+        "genres": [
+          "web_page",
+          "review"
+        ],
+        "word_range": [
+          230,
+          420
+        ],
+        "scenario": "landscape design",
+        "event": "a deadline extension",
+        "mode": "double",
+        "slots": [
+          {
+            "skill": "purpose",
+            "difficulty": "hard",
+            "kind": "purpose"
+          },
+          {
+            "skill": "detail",
+            "difficulty": "medium",
+            "kind": "detail"
+          },
+          {
+            "skill": "inference",
+            "difficulty": "easy",
+            "kind": "inference"
+          },
+          {
+            "skill": "cross_document",
+            "difficulty": "hard",
+            "kind": "cross_document"
+          },
+          {
+            "skill": "cross_document",
+            "difficulty": "medium",
+            "kind": "cross_document"
+          }
+        ]
+      }
+    },
+    {
+      "id": "u007",
+      "content_sha256": "3145d66370272b302056c4b9413262104e042547bdcf6f8793e687726eba8957",
+      "content": {
+        "part": 7,
+        "title": "Western Architecture Conference Airport Shuttle & Relocation Set",
+        "scenario_summary": "Due to scheduled floor resurfacing delays at the Crestview Conference Center, the Western Architecture & Urban Design Conference is relocated to the Gateway Trade Pavilion. An airport shuttle provider and event organizers coordinate shuttle boarding, fee waivers for scale models and drafting portfolios, and modified route stops.",
+        "documents": [
+          {
+            "id": "d1",
+            "genre": "web_page",
+            "title": "Skyline Airport Shuttles - Terminal B Passenger Guide",
+            "blocks": [
+              {
+                "id": "d1-b1",
+                "type": "heading",
+                "text": "Skyline Airport Shuttles: Terminal B Ground Transport Guide",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b2",
+                "type": "paragraph",
+                "text": "Skyline Airport Shuttles provides daily scheduled transportation connecting Capital City Airport (Terminal B, Ground Level, outside Door 4) to primary commercial and hotel destinations. Departures run every 20 minutes from 5:30 A.M. to 11:30 P.M.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d1-b3",
+                "type": "table",
+                "text": "Terminal B Route Directory: Route A (Downtown) serves Civic Center and Financial Plaza from Stop 1 ($14.00). Route B (Northside) serves Crestview Conference Center and North Grand Hotel from Stop 2 ($18.00). Route C (South Wharf) serves Gateway Trade Pavilion and Harborfront Suites from Stop 3 ($22.00).",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [
+                  "Route Line",
+                  "Major Destinations",
+                  "Boarding Stop",
+                  "Standard One-Way Fare"
+                ],
+                "rows": [
+                  [
+                    "Route A (Downtown)",
+                    "Civic Center, Financial Plaza",
+                    "Stop 1",
+                    "$14.00"
+                  ],
+                  [
+                    "Route B (Northside)",
+                    "Crestview Conference Center, North Grand Hotel",
+                    "Stop 2",
+                    "$18.00"
+                  ],
+                  [
+                    "Route C (South Wharf)",
+                    "Gateway Trade Pavilion, Harborfront Suites",
+                    "Stop 3",
+                    "$22.00"
+                  ]
+                ]
+              },
+              {
+                "id": "d1-b4",
+                "type": "paragraph",
+                "text": "Standard fares include one stowed suitcase and one personal bag. An oversized item surcharge of $6 applies to additional bags or bulky cargo. Passengers traveling under an official event transit contract ride without payment at the curb by presenting a verified digital pass.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          },
+          {
+            "id": "d2",
+            "genre": "email",
+            "title": "Western Architecture & Urban Design Conference Notice",
+            "blocks": [
+              {
+                "id": "d2-b1",
+                "type": "field",
+                "text": "From: Sarah Lin <slin@waudconference.example>",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b2",
+                "type": "field",
+                "text": "To: Registered Attendees <attendees@waudconference.example>",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b3",
+                "type": "field",
+                "text": "Date: October 14",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b4",
+                "type": "field",
+                "text": "Subject: Urgent: Venue Relocation and Airport Transfer Instructions",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b5",
+                "type": "paragraph",
+                "text": "Dear Attendees, Due to unexpected floor resurfacing delays at the Crestview Conference Center, the Western Architecture & Urban Design Conference (October 22–24) has been relocated to the Gateway Trade Pavilion, situated at 450 Harbor Boulevard.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d2-b6",
+                "type": "paragraph",
+                "text": "If you are flying into Capital City Airport, your conference registration includes complimentary shuttle transfers through our official partnership with Skyline Airport Shuttles. Because of the venue change, please board Route C instead of Route B outside Terminal B. Simply display your digital registration pass on your mobile device to the driver upon boarding. While the neighboring Harborfront Suites cannot accommodate room check-in before 3:00 P.M., our event operations team has arranged secure luggage storage inside Pavilion Room 102 starting at 8:00 A.M. on Wednesday, October 22. We look forward to your participation.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          },
+          {
+            "id": "d3",
+            "genre": "memo",
+            "title": "Skyline Fleet Operations Memorandum",
+            "blocks": [
+              {
+                "id": "d3-b1",
+                "type": "field",
+                "text": "To: Terminal B Drivers and Dispatch Personnel",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d3-b2",
+                "type": "field",
+                "text": "From: Derek Vance, Fleet Operations Manager",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d3-b3",
+                "type": "field",
+                "text": "Date: October 15",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d3-b4",
+                "type": "field",
+                "text": "Subject: Service Adjustments for WAUDC (Oct 22–24)",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d3-b5",
+                "type": "paragraph",
+                "text": "In coordination with organizers of the Western Architecture & Urban Design Conference, Skyline will implement temporary service adjustments from Wednesday, October 22, through Friday, October 24.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d3-b6",
+                "type": "paragraph",
+                "text": "Because the conference has relocated from Crestview Conference Center to Gateway Trade Pavilion, attendees will be using Route C. To accommodate increased rider volume, Route C departures will operate every 10 minutes between 7:30 A.M. and 10:00 A.M., rather than at the standard 20-minute interval. Drivers must drop passengers off at the pavilion's main entrance.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              },
+              {
+                "id": "d3-b7",
+                "type": "paragraph",
+                "text": "Drivers must scan each attendee's digital pass using the handheld mobile unit, as these electronic records are required for billing the conference committee. In addition, while regular passengers remain subject to the standard $6 oversized item surcharge, this fee is waived for conference attendees transporting architectural scale models or drafting portfolios. Standard fares still apply to regular travelers along the route.",
+                "speaker": "",
+                "timestamp": "",
+                "columns": [],
+                "rows": []
+              }
+            ]
+          }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "kind": "purpose",
+            "skill": "purpose",
+            "difficulty": "hard",
+            "prompt": "What is the primary purpose of the email?",
+            "options": [
+              {
+                "label": "A",
+                "text": "To announce an altered event site and explain local airport transfer arrangements"
+              },
+              {
+                "label": "B",
+                "text": "To solicit feedback on proposed scheduling changes for an upcoming symposium"
+              },
+              {
+                "label": "C",
+                "text": "To notify attendees that shuttle service from Terminal B has been suspended"
+              },
+              {
+                "label": "D",
+                "text": "To outline procedures for reserving accommodations at the Harborfront Suites"
+              }
+            ],
+            "answer": "A",
+            "target_document_id": "d2",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "該電子郵件的主要目的是宣布研討會場地變更，並說明從機場搭乘接駁車的相應安排。",
+              "reasoning_zh": "信件第一段（d2-b5）明確宣布會議因原場地整修延誤而改至 Gateway Trade Pavilion 舉行；第二段（d2-b6）則詳述從機場出發的免費接駁車路線（改搭 Route C）、驗票方式及會場的行李暫存服務。因此選項 A 正確囊括了該信件的雙重溝通目的。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "正確。信件第一段說明會場更換，第二段提供相應的機場接駁車搭乘指南與安排。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。信件內容為正式通知已確定的場地與交通變更，並非向與會者徵詢行程意見或反饋。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。B 航廈的接駁車服務依然正常運作，且為與會者提供免費搭乘，並未暫停服務。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。信中提及 Harborfront Suites 僅是為了說明下午 3:00 前無法入住的行李寄存安排，而非指導如何預訂該飯店住宿。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b5",
+                  "quote": "Due to unexpected floor resurfacing delays at the Crestview Conference Center, the Western Architecture & Urban Design Conference (October 22–24) has been relocated to the Gateway Trade Pavilion, situated at 450 Harbor Boulevard."
+                },
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b6",
+                  "quote": "If you are flying into Capital City Airport, your conference registration includes complimentary shuttle transfers through our official partnership with Skyline Airport Shuttles. Because of the venue change, please board Route C instead of Route B outside Terminal B."
+                }
+              ],
+              "takeaway_zh": "閱讀主旨題時，若信件包含多項具體措施，正確答案往往會整合主旨段落（如場地調整）與執行說明（如交通配套），不可偏廢其一。"
+            }
+          },
+          {
+            "id": "q2",
+            "kind": "detail",
+            "skill": "negative_detail",
+            "difficulty": "easy",
+            "prompt": "According to the web page, what is NOT mentioned about Skyline Airport Shuttles?",
+            "options": [
+              {
+                "label": "A",
+                "text": "The frequency of standard shuttle departures"
+              },
+              {
+                "label": "B",
+                "text": "The location of the terminal pickup area"
+              },
+              {
+                "label": "C",
+                "text": "The option to reserve private executive vans"
+              },
+              {
+                "label": "D",
+                "text": "The additional charge for oversized baggage"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "d1",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "網頁中並未提及乘客可以預約專屬商務廂型車（private executive vans）。",
+              "reasoning_zh": "逐一對照網頁內容：d1-b2 提到發車頻率為每 20 分鐘一班（對應選項 A），且乘車站牌位於 B 航廈地面層 4 號門外（對應選項 B）；d1-b4 提到超大行李或額外物品需加收 6 美元附加費（對應選項 D）。全文完全未提及提供預約私人商務廂型車的服務，故選 C。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "已提及。d1-b2 指出「Departures run every 20 minutes from 5:30 A.M. to 11:30 P.M.」。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "已提及。d1-b2 指出「Terminal B, Ground Level, outside Door 4」。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "未提及。網頁沒有提及私人包車或商務廂型車預約服務。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "已提及。d1-b4 指出「An oversized item surcharge of $6 applies to additional bags or bulky cargo.」。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b2",
+                  "quote": "Departures run every 20 minutes from 5:30 A.M. to 11:30 P.M."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b2",
+                  "quote": "Terminal B, Ground Level, outside Door 4"
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "An oversized item surcharge of $6 applies to additional bags or bulky cargo."
+                }
+              ],
+              "takeaway_zh": "解答 NOT 題型時，利用核心關鍵名詞（如 frequency、location、surcharge）在原文快速掃讀定位已列出的事實，未在文中出現者即為正確選項。"
+            }
+          },
+          {
+            "id": "q3",
+            "kind": "inference",
+            "skill": "inference",
+            "difficulty": "medium",
+            "prompt": "What does the memo imply about the billing for conference attendees' shuttle travel?",
+            "options": [
+              {
+                "label": "A",
+                "text": "Drivers will collect cash fares directly from attendees upon arrival."
+              },
+              {
+                "label": "B",
+                "text": "Skyline Airport Shuttles will invoice the conference committee based on digital scan records."
+              },
+              {
+                "label": "C",
+                "text": "Attendees must submit paper receipts to the event organizers for individual reimbursement."
+              },
+              {
+                "label": "D",
+                "text": "The conference committee paid a fixed advance fee that covers unlimited rides."
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "d3",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "備忘錄暗示接駁車公司將根據司機掃描電子票證的紀錄，向研討會籌備委員會請款。",
+              "reasoning_zh": "備忘錄第三段（d3-b7）明確要求司機：「Drivers must scan each attendee's digital pass using the handheld mobile unit, as these electronic records are required for billing the conference committee.」由此可知，公司要求司機掃描票證建立紀錄，是為了依掃描紀錄向研討會籌備委員會請款（bill/invoice），故選 B。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。電子郵件明確說明與會者享有免費接駁；備忘錄則要求掃描票證並保留向籌委會請款的紀錄，未要求向與會者收取現金車資。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。依據「these electronic records are required for billing the conference committee」，接駁車公司會依據電子掃描紀錄向大會籌委會請款。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。文中提及為電子掃描紀錄與機構對帳請款，並無紙本收據或要求個人向主辦方申請報銷。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。文中只說掃描紀錄是向籌委會請款所需的資料，沒有說明已預付固定費用或可無限搭乘，因此 D 缺乏依據。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d3",
+                  "block_id": "d3-b7",
+                  "quote": "Drivers must scan each attendee's digital pass using the handheld mobile unit, as these electronic records are required for billing the conference committee."
+                }
+              ],
+              "takeaway_zh": "records are required for billing [party] 表示這些紀錄是向該對象請款所需的資料；這句話本身不限定付款時間、固定費率或按人次計費方式。"
+            }
+          },
+          {
+            "id": "q4",
+            "kind": "cross_document",
+            "skill": "cross_document",
+            "difficulty": "medium",
+            "prompt": "Where should conference attendees go to board their shuttle at Terminal B?",
+            "options": [
+              {
+                "label": "A",
+                "text": "Stop 1"
+              },
+              {
+                "label": "B",
+                "text": "Stop 2"
+              },
+              {
+                "label": "C",
+                "text": "Stop 3"
+              },
+              {
+                "label": "D",
+                "text": "Stop 4"
+              }
+            ],
+            "answer": "C",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "綜合電子郵件與網頁指南，與會者應搭乘 Route C，該路線在 B 航廈的候車處為 Stop 3。",
+              "reasoning_zh": "此題需要交叉檢索兩份文件：文件二（電子郵件 d2-b6）說明因場地變更，與會者出 B 航廈後應改搭「Route C」而非「Route B」；再對照文件一（網頁路線表 d1-b3），「Route C (South Wharf)」前往新會場 Gateway Trade Pavilion，其在 B 航廈的上車處（Boarding Stop）為「Stop 3」。兩份資訊結合即可確定候車地點為 Stop 3。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。Stop 1 為 Route A（市中心線）的站牌。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "錯誤。Stop 2 為 Route B 的站牌，該路線通往舊會場 Crestview Conference Center，信件已明確指示不要搭乘。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "正確。電子郵件指定改搭 Route C，網頁顯示 Route C 的搭乘站牌為 Stop 3。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。網頁路線表僅列出 Stop 1 至 Stop 3，未列出 Stop 4。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b6",
+                  "quote": "Because of the venue change, please board Route C instead of Route B outside Terminal B."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b3",
+                  "quote": "Route C (South Wharf) serves Gateway Trade Pavilion and Harborfront Suites from Stop 3 ($22.00)."
+                }
+              ],
+              "takeaway_zh": "跨篇題中若某文件僅提供路線代號（如 Route C），需回頭參照總覽文件（如路線價目表）查找具體的實體月台或站牌編號（如 Stop 3）。"
+            }
+          },
+          {
+            "id": "q5",
+            "kind": "cross_document",
+            "skill": "cross_document",
+            "difficulty": "hard",
+            "prompt": "What is indicated about conference attendees traveling with architectural scale models?",
+            "options": [
+              {
+                "label": "A",
+                "text": "They must pay an extra $6 fee to the driver upon boarding."
+              },
+              {
+                "label": "B",
+                "text": "They can travel to the Gateway Trade Pavilion at no cost."
+              },
+              {
+                "label": "C",
+                "text": "They must arrange for transport through a private delivery carrier."
+              },
+              {
+                "label": "D",
+                "text": "They are required to leave their equipment at Harborfront Suites until 3:00 P.M."
+              }
+            ],
+            "answer": "B",
+            "target_document_id": "",
+            "target_text": "",
+            "explanation": {
+              "summary_zh": "與會者享有免費接駁車服務，且攜帶建築比例模型者獲免除超額行李附加費，因此前往 Gateway Trade Pavilion 完全不需支付任何費用。",
+              "reasoning_zh": "電子郵件說明與會者車資免費；備忘錄說明攜帶建築比例模型者免收該附加費。網頁則補充一般收費規則。文件二（d2-b6）說明與會者的報名安排包含免費接駁車接送（complimentary shuttle transfers）；文件三（d3-b7）則進一步指出，對於攜帶「建築比例模型或設計作品集（architectural scale models or drafting portfolios）」的與會者，「6 美元超額行李費予以免收（this fee is waived）」。因此，攜帶建築模型的與會者搭乘接駁車前往 Gateway Trade Pavilion 毋須支付任何基本車資或行李附加費（at no cost），選項 B 正確。",
+              "option_analysis": [
+                {
+                  "label": "A",
+                  "reason_zh": "錯誤。備忘錄（d3-b7）明確說明該 6 美元費用對攜帶建築模型之與會者予以免收（waived）。"
+                },
+                {
+                  "label": "B",
+                  "reason_zh": "正確。電子郵件確立了車資免費，備忘錄確立了行李附加費減免，因此全程完全免費（at no cost）。"
+                },
+                {
+                  "label": "C",
+                  "reason_zh": "錯誤。文件並未要求模型必須委託私人貨運運送，接駁車司機獲指示允許攜帶並免收附加費。"
+                },
+                {
+                  "label": "D",
+                  "reason_zh": "錯誤。信件（d2-b6）說明大會在新會場 Pavilion Room 102 自上午 8:00 即設有安全行李寄存處，並未強制要求將器材留在飯店。"
+                }
+              ],
+              "evidence": [
+                {
+                  "document_id": "d2",
+                  "block_id": "d2-b6",
+                  "quote": "your conference registration includes complimentary shuttle transfers through our official partnership with Skyline Airport Shuttles."
+                },
+                {
+                  "document_id": "d3",
+                  "block_id": "d3-b7",
+                  "quote": "while regular passengers remain subject to the standard $6 oversized item surcharge, this fee is waived for conference attendees transporting architectural scale models or drafting portfolios."
+                },
+                {
+                  "document_id": "d1",
+                  "block_id": "d1-b4",
+                  "quote": "An oversized item surcharge of $6 applies to additional bags or bulky cargo."
+                }
+              ],
+              "takeaway_zh": "在多篇閱讀中推論「最終費用」時，必須將基礎方案（如大會合約涵蓋免費搭乘）與特殊物品規定（如專業器材免收超大行李附加費）共同整合計算。"
+            }
+          }
+        ]
+      },
+      "blueprint": {
+        "part": 7,
+        "question_count": 5,
+        "genres": [
+          "web_page",
+          "email",
+          "memo"
+        ],
+        "word_range": [
+          300,
+          510
+        ],
+        "scenario": "airport shuttle",
+        "event": "a venue change",
+        "mode": "triple",
+        "slots": [
+          {
+            "skill": "purpose",
+            "difficulty": "hard",
+            "kind": "purpose"
+          },
+          {
+            "skill": "negative_detail",
+            "difficulty": "easy",
+            "kind": "detail"
+          },
+          {
+            "skill": "inference",
+            "difficulty": "medium",
+            "kind": "inference"
+          },
+          {
+            "skill": "cross_document",
+            "difficulty": "medium",
+            "kind": "cross_document"
+          },
+          {
+            "skill": "cross_document",
+            "difficulty": "hard",
+            "kind": "cross_document"
+          }
+        ]
+      }
+    }
+  ]
+}
